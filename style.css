@@ -20,10 +20,18 @@ body{
   text-align:center;
 }
 img{
-  border-radius:50%;
+  border-radius:20px;
 }
 h1{
   font-size:36px;
   line-height:50px;
   font-weight:bold;
+}
+  }
+  .hero{
+    outline:1px solid red;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
 }
