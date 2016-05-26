@@ -14,13 +14,17 @@ html, body{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size:18px;
   line-height:30px;
-  color:#444;
-  text-shadow: 1px 1px 0px #fff;
+  color:#ffffff;
+  text-shadow: 1px 1px 0px #F54455;
+
 }
 body{
   text-align:center;
 	/*background:repeating-linear-gradient(-45deg, #F54455, #de9dd4 5px, white 5px, white 10px);*/
-  background: linear-gradient(327deg, #ffffff, #91d1e7, #0dd483);
+background: linear-gradient(327deg, #0e0e0e, #717171, #e6e75b);
+  /*(327deg, #ffffff, #91d1e7, #0dd483);*/
+
+
   background-size: 600% 600%;
   background-position: 0 0;
 
@@ -41,13 +45,14 @@ img{
   border-radius: 20px;
 }
 h1{
+      font-family: 'Lobster', cursive;
   font-size:36px;
   line-height:50px;
   font-weight:bold;
 
 }
-  .hero{
-    margin-left: 30px;
+.hero{
+    margin-left: 50px;
     float: left;
     /*outline:1px solid red;*/
     height:100vh;
@@ -55,9 +60,45 @@ h1{
     flex-direction:column;
     justify-content: center;
 }
+.content{
+  margin-right: 200px;
+
+}
+.logo{
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+
+
+
+  /*left: 800px;*/
+  /*outline: 2px solid red;*/
+  width: 50%;
+  float: right;
+}
+.inside{ //attempting to gradient inside the logo
+  background: linear-gradient(327deg, #0e0e0e, #717171, #e6e75b);
+/*(327deg, #ffffff, #91d1e7, #0dd483);*/
+
+
+  background-size: 600% 600%;
+  background-position: 0 0;
+
+  animation: coolcolors 30s ease infinite;
+
+
+
+}
+@keyframes coolcolors {
+    0%{background-position:0% 22%}
+    50%{background-position:100% 79%}
+    100%{background-position:0% 22%}
+}
 .bmenu{
-    padding: 20px;
-    margin: 50px; 0 10px 0;
+    background-size: 30%;
+    padding: 80px;
+    margin: 100px 0 10px 0;
     position: relative;
 }
 .bmenu li{
@@ -68,7 +109,7 @@ h1{
 .bmenu li a{
 	color: transparent;
 	display: block;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-shadow: 0px 0px 5px #fff;
 	letter-spacing: 1px;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -78,10 +119,21 @@ h1{
 	transition: all 0.3s ease-in-out;
 }
 .bmenu:hover li a{
-	text-shadow: 0px 0px 5px #0d1a3a;
+	text-shadow: 0px 0px 5px #fff;
 }
 .bmenu li a:hover{
 	color: #fff;
 	text-shadow: 0px 0px 1px #fff;
 	padding-left: 10px;
+}
+.reg{
+  text-transform: uppercase;
+}
+.chill{
+      font-family: 'Lobster', cursive;
+
+}
+.lit{
+      font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
 }
