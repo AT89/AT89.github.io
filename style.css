@@ -9,6 +9,7 @@
   line-height:inherit;
   color:inherit;
 }
+
 html, body{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size:18px;
@@ -18,19 +19,69 @@ html, body{
 }
 body{
   text-align:center;
+	/*background:repeating-linear-gradient(-45deg, #F54455, #de9dd4 5px, white 5px, white 10px);*/
+  background: linear-gradient(327deg, #ffffff, #91d1e7, #0dd483);
+  background-size: 600% 600%;
+  background-position: 0 0;
+
+  animation: coolcolors 30s ease infinite;
+
+
+
+}
+@keyframes coolcolors {
+    0%{background-position:0% 22%}
+    50%{background-position:100% 79%}
+    100%{background-position:0% 22%}
 }
 img{
   border-radius:20px;
+  outline: white;
+  border: 7px solid white;
+  border-radius: 20px;
 }
 h1{
   font-size:36px;
   line-height:50px;
   font-weight:bold;
+
 }
   .hero{
-    outline:1px solid red;
+    margin-left: 30px;
+    float: left;
+    /*outline:1px solid red;*/
     height:100vh;
     display:flex;
     flex-direction:column;
     justify-content: center;
+}
+.bmenu{
+    padding: 20px;
+    margin: 50px; 0 10px 0;
+    position: relative;
+}
+.bmenu li{
+    padding: 30px;
+    font-size: 50px;
+    display: block;
+}
+.bmenu li a{
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 5px #0d1a3a;
+}
+.bmenu li a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
 }
