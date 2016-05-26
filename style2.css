@@ -34,11 +34,7 @@ background: linear-gradient(323deg, #371fd1, #5e1fd1, #FFD700, #9e9e5c,#6d6c6c,#
 
 
 }
-@keyframes coolcolors {
-    0%{background-position:0% 22%}
-    50%{background-position:100% 79%}
-    100%{background-position:0% 22%}
-}
+
 img{
   border-radius:20px;
   outline: white;
@@ -54,12 +50,15 @@ h1{
 }
 .hero{
     margin-left: 50px;
-    float: left;
+    /*float: left;*/
     /*outline:1px solid red;*/
     height:100vh;
     display:flex;
     flex-direction:column;
     justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 
@@ -80,24 +79,7 @@ h1{
   top: 100px;
   right: 100px;
 }
-.inside{ //attempting to gradient inside the logo
-  background: linear-gradient(327deg, #0e0e0e, #717171, #e6e75b);
-/*(327deg, #ffffff, #91d1e7, #0dd483);*/
 
-
-  background-size: 600% 600%;
-  background-position: 0 0;
-
-  animation: coolcolors 30s ease infinite;
-
-
-
-}
-@keyframes coolcolors {
-    0%{background-position:0% 22%}
-    50%{background-position:100% 79%}
-    100%{background-position:0% 22%}
-}
 .Llink{
     background-size: 30%;
     /*padding: 80px;*/
@@ -132,11 +114,9 @@ h1{
 .reg{
   text-transform: uppercase;
 }
-.chill{
-      font-family: 'Lobster', cursive;
-
+.pcontent{
+  margin-top: 700px;
 }
-.lit{
-      font-family: 'Anton', sans-serif;
-        text-transform: uppercase;
+h2{
+  font-size: 30px;
 }

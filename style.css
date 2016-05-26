@@ -26,7 +26,7 @@ background: linear-gradient(323deg, #371fd1, #5e1fd1, #FFD700, #9e9e5c,#6d6c6c,#
   /*(327deg, #ffffff, #91d1e7, #0dd483);*/
 
 
-  background-size: 600% 600%;
+  background-size: 600%;
   background-position: 0 0;
 
   animation: coolcolors 60s ease infinite;
@@ -68,10 +68,6 @@ h1{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
-
-
-
-
   /*left: 800px;*/
   /*outline: 2px solid red;*/
   /*width: 50%;*/
@@ -80,26 +76,15 @@ h1{
   top: 30px;
   right: 200px;
 }
-.inside{ //attempting to gradient inside the logo
-  background: linear-gradient(327deg, #0e0e0e, #717171, #e6e75b);
-/*(327deg, #ffffff, #91d1e7, #0dd483);*/
 
-
-  background-size: 600% 600%;
-  background-position: 0 0;
-
-  animation: coolcolors 30s ease infinite;
-
-
-
-}
-@keyframes coolcolors {
-    0%{background-position:0% 22%}
-    50%{background-position:100% 79%}
-    100%{background-position:0% 22%}
-}
 .Llink{
-    background-size: 30%;
+    background-image: url("logo.png");
+      background-repeat: no-repeat;
+        background-position: center;
+        position:absolute;
+        top: 30px;
+        right: 200px;
+    background-size: 80%;
     /*padding: 80px;*/
     /*margin: 100px 0 10px 0;*/
     /*position: relative;*/
@@ -108,6 +93,7 @@ h1{
     padding: 30px;
     font-size: 50px;
     display: block;
+    text-transform: uppercase;
 }
 .Llink li a{
 	color: transparent;
@@ -129,14 +115,12 @@ h1{
 	text-shadow: 0px 0px 1px #fff;
 	padding-left: 10px;
 }
-.reg{
-  text-transform: uppercase;
-}
-.chill{
-      font-family: 'Lobster', cursive;
 
+#chill{
+      font-family: 'Lobster', cursive;
+      text-transform: none;
 }
-.lit{
+#lit{
       font-family: 'Anton', sans-serif;
         text-transform: uppercase;
 }
