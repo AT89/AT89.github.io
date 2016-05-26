@@ -67,7 +67,7 @@ h1{
   background-image: url("logo.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
+  background-size: 75%;
 
 
 
@@ -77,8 +77,8 @@ h1{
   /*width: 50%;*/
   /*float: right;*/
   position:absolute;
-  top: 30px;
-  right: 200px;
+  top: 100px;
+  right: 100px;
 }
 .inside{ //attempting to gradient inside the logo
   background: linear-gradient(327deg, #0e0e0e, #717171, #e6e75b);
