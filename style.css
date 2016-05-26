@@ -61,22 +61,24 @@ h1{
     flex-direction:column;
     justify-content: center;
 }
-.content{
-  margin-right: 200px;
 
-}
+
 .logo{
   background-image: url("logo.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 70%;
+  background-size: 90%;
+
 
 
 
   /*left: 800px;*/
   /*outline: 2px solid red;*/
-  width: 50%;
-  float: right;
+  /*width: 50%;*/
+  /*float: right;*/
+  position:absolute;
+  top: 30px;
+  right: 200px;
 }
 .inside{ //attempting to gradient inside the logo
   background: linear-gradient(327deg, #0e0e0e, #717171, #e6e75b);
@@ -98,9 +100,9 @@ h1{
 }
 .bmenu{
     background-size: 30%;
-    padding: 80px;
-    margin: 100px 0 10px 0;
-    position: relative;
+    /*padding: 80px;*/
+    /*margin: 100px 0 10px 0;*/
+    /*position: relative;*/
 }
 .bmenu li{
     padding: 30px;
