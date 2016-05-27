@@ -9,89 +9,56 @@
   line-height:inherit;
   color:inherit;
 }
-
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("bg.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-
+}
 html, body{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size:18px;
   line-height:30px;
   color:#ffffff;
-  text-shadow: 1px 1px 0px #F54455;
+  text-shadow: 1px 1px 0px #000000;
 
-}
-body{
-  text-align:center;
-	/*background:repeating-linear-gradient(-45deg, #F54455, #de9dd4 5px, white 5px, white 10px);*/
-background: linear-gradient(323deg, #371fd1, #5e1fd1, #FFD700, #9e9e5c,#6d6c6c,#000000);
-
-  /*(327deg, #ffffff, #91d1e7, #0dd483);*/
-
-
-  background-size: 600%;
-  background-position: 0 0;
-
-  animation: coolcolors 60s ease infinite;
-
-
-
-}
-@keyframes coolcolors {
-    0%{background-position:0% 22%}
-    50%{background-position:100% 79%}
-    100%{background-position:0% 22%}
-}
-img{
-  border-radius:20px;
-  outline: white;
-  border: 3px solid white;
-  border-radius: 20px;
 }
 h1{
-      font-family: 'Lobster', cursive;
-  font-size:36px;
-  line-height:50px;
-  font-weight:bold;
-
+  font-family: 'Lobster', cursive;
+font-size:60px;
+line-height:50px;
+font-weight:bold;
+text-align: center;
+padding-top: 25px;
 }
-.hero{
-    margin-left: 50px;
-    float: left;
-    /*outline:1px solid red;*/
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
+h2{
+font-size:20px;
+line-height:50px;
+font-weight:bold;
+text-align: center;
+padding-top: 15px;
 }
 
-
-.logo{
-  background-image: url("logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
-  /*left: 800px;*/
-  /*outline: 2px solid red;*/
-  /*width: 50%;*/
-  /*float: right;*/
-  position:absolute;
-  top: 30px;
-  right: 200px;
-}
 
 .Llink{
-    background-image: url("logo.png");
+    /*background-image: url("logo.png");*/
+    padding-top: 100px;
+    padding-left: 100px;
       background-repeat: no-repeat;
         background-position: center;
         position:absolute;
-        top: 30px;
-        right: 200px;
+margin-left: auto;
+margin-right: auto;
     background-size: 80%;
     /*padding: 80px;*/
     /*margin: 100px 0 10px 0;*/
     /*position: relative;*/
 }
 .Llink li{
-    padding: 30px;
-    font-size: 50px;
+    padding: 10px;
+    font-size: 30px;
     display: block;
     text-transform: uppercase;
 }
@@ -123,4 +90,8 @@ h1{
 #lit{
       font-family: 'Anton', sans-serif;
         text-transform: uppercase;
+}
+.content{
+  text-align: center;
+  padding-top: 200px;
 }
