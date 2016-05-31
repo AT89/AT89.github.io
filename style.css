@@ -13,9 +13,10 @@ body{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("bg.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
+  /* These are not valid CSS properties. */
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-
+  background- /* Validate your CSS. One error like this can break the rest. */
 }
 html, body{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -86,6 +87,7 @@ margin-right: auto;
 #chill{
       font-family: 'Lobster', cursive;
       text-transform: none;
+      /* If you don't want to `text-transform` something, just don't include this property. The default is `none`. */
 }
 #lit{
       font-family: 'Anton', sans-serif;
