@@ -9,204 +9,95 @@
   line-height:inherit;
   color:inherit;
 }
-html, body{
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size:18px;
-  line-height:30px;
-  color:#ffffff;
-  text-shadow: 1px 1px 0px #F54455;
-
-}
 body{
-  text-align:center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1000px;
-	/*background:repeating-linear-gradient(-45deg, #F54455, #de9dd4 5px, white 5px, white 10px);*/
-background: linear-gradient(323deg, #371fd1, #5e1fd1, #FFD700, #9e9e5c,#6d6c6c,#000000);
-
-  /*(327deg, #ffffff, #91d1e7, #0dd483);*/
-
-
-  background-size: 600% 600%;
-  background-position: 0 0;
-
-  animation: coolcolors 60s ease infinite;
-
-
+     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("bg.jpg");
+     background-position-x: 50%;
+     background-position-y: 50%;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+html, body{
+     font-family: "Helvetica Neue", Helvetica, sans-serif;
+     font-size:18px;
+     line-height:30px;
+     color:#ffffff;
+     text-shadow: 1px 1px 0px #000000;
 
 }
-@keyframes coolcolors {
-    0%{background-position:0% 22%}
-    50%{background-position:100% 79%}
-    100%{background-position:0% 22%}
-}
-img{
-  border-radius:20px;
-  outline: white;
-  border: 3px solid white;
-  border-radius: 20px;
-}
-
 h1{
-      font-family: 'Lobster', cursive;
-  font-size:50px;
-  line-height:50px;
-  font-weight:bold;
-
+    font-family: 'Lobster', cursive;
+    font-size:60px;
+    line-height:50px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 25px;
 }
-.hero{
-    margin-left: 50px;
-    /*float: left;*/
-    /*outline:1px solid red;*/
-    height:65vh;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
+h2{
+    font-size:20px;
+    line-height:50px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 15px;
 }
-<<<<<<< HEAD
-=======
-.logolinks{
-  margin-right: 200px;
-  float: left;
-  position:absolute;
-  top: 320px;
-  display: flex;
+    .Llink{
+        /*background-image: url("logo.png");*/
 
->>>>>>> af25e2b67f2ba73cd100b2e83d908e35c6bb2305
+        padding-left: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 80%;
+    }
+        .Llink li{
+            padding: 15px;
+            font-size: 30px;
+            display: block;
+            text-transform: uppercase;
+        }
+        .Llink li a{
+        	display: block;
+        	/*text-transform: uppercase;*/
+        	text-shadow: 0px 0px 5px #fff;
+        	letter-spacing: 1px;
+        	-webkit-transition: all 0.3s ease-in-out;
+        	-moz-transition: all 0.3s ease-in-out;
+        	-o-transition: all 0.3s ease-in-out;
+        	-ms-transition: all 0.3s ease-in-out;
+        	transition: all 0.3s ease-in-out;
+        }
+        .Llink:hover li a{
+        	text-shadow: 0px 0px 5px #fff;
+        }
+        .Llink li a:hover{
+        	color: #fff;
+        	text-shadow: 0px 0px 1px #fff;
+        	padding-left: 10px;
+    }
 
-
-.logo{
-  background-image: url("logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-<<<<<<< HEAD
-  background-size: 90%;
-
-=======
-  background-size: 100%;
->>>>>>> af25e2b67f2ba73cd100b2e83d908e35c6bb2305
-
-
-
-  /*left: 800px;*/
-  /*outline: 2px solid red;*/
-  /*width: 50%;*/
-<<<<<<< HEAD
-  /*float: right;*/
-  position:absolute;
-  top: 30px;
-  right: 200px;
-=======
-  float: right;
->>>>>>> af25e2b67f2ba73cd100b2e83d908e35c6bb2305
+#chill{
+    font-family: 'Lobster', cursive;
+    text-transform: none;
 }
-/*.inside{ //attempting to gradient inside the logo
-  background: linear-gradient(327deg, #0e0e0e, #717171, #e6e75b);
-/*(327deg, #ffffff, #91d1e7, #0dd483);*/
-
-
-  background-size: 600% 600%;
-  background-position: 0 0;
-
-  animation: coolcolors 30s ease infinite;*/
-
+#lit{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+#logo{
+padding: 20px 20px 20px 20px;
 
 
 }
-@keyframes coolcolors {
-    0%{background-position:0% 22%}
-    50%{background-position:100% 79%}
-    100%{background-position:0% 22%}
-}
-<<<<<<< HEAD
-.Llink{
-=======
-.links{
->>>>>>> af25e2b67f2ba73cd100b2e83d908e35c6bb2305
-    background-size: 30%;
-    /*padding: 80px;*/
-    /*margin: 100px 0 10px 0;*/
-    /*position: relative;*/
-}
-<<<<<<< HEAD
-.Llink li{
-    padding: 30px;
-    font-size: 50px;
-    display: block;
-}
-.Llink li a{
-	color: transparent;
-	display: block;
-	/*text-transform: uppercase;*/
-	text-shadow: 0px 0px 5px #fff;
-	letter-spacing: 1px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.Llink:hover li a{
-	text-shadow: 0px 0px 5px #fff;
-}
-.Llink li a:hover{
-	color: #fff;
-	text-shadow: 0px 0px 1px #fff;
-	padding-left: 10px;
-}
-=======
-                        .links li{
-                            padding: 30px;
-                            font-size: 50px;
-                            display: block;
-                        }
-                        .links li a{
-                        	color: transparent;
-                        	display: block;
-                        	/*text-transform: uppercase;*/
-                        	text-shadow: 0px 0px 5px #fff;
-                        	letter-spacing: 1px;
-                        	-webkit-transition: all 0.3s ease-in-out;
-                        	-moz-transition: all 0.3s ease-in-out;
-                        	-o-transition: all 0.3s ease-in-out;
-                        	-ms-transition: all 0.3s ease-in-out;
-                        	transition: all 0.3s ease-in-out;
-                        }
-                        .links:hover li a{
-                        	text-shadow: 0px 0px 5px #fff;
-
-                        }
-                        .links li a:hover{
-                        	color: #fff;
-                        	text-shadow: 0px 0px 1px #fff;
-                        	/*padding-left: 10px;*/
-                          font-size: 60px;
-
-                        }
->>>>>>> af25e2b67f2ba73cd100b2e83d908e35c6bb2305
-.reg{
-  text-transform: uppercase;
-}
-.chill{
-      font-family: 'Lobster', cursive;
-
-}
-.lit{
-      font-family: 'Anton', sans-serif;
-        text-transform: uppercase;
-}
-.cfield{
-      color: #000;
-      background-color: rgba(255,255,255,.3);
-      line-height: normal;
-      width: 600px;
-      font-size: 15px;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 600px;
-      /*position: absolute;*/
-      left: 600px;
-      top: 100px;
-      text-shadow: none;
+#contentBlog{
+  text-align: center;
+  width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*border: 5px solid orange;*/
+  bottom: 150px;
 }
