@@ -1,3 +1,8 @@
+$("#firstsite")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("First website I made, I leave it on here to contrast how far I've come. Of course goofiness was intended")
+});
+
 $("#war")
 .on("mouseover", function(e){
   $("#contentBlog").first().html("First project at General Assembly, it's the War card game in Javascript but with a surprise :) <br>Full Disclosure: lower audio volume")
@@ -15,7 +20,7 @@ $("#bp2015")
 
 $("#chill")
 .on("mouseover", function(e){
-  $("#contentBlog").first().html("Link to my Chill mix series.")
+  $("#contentBlog").first().html("Link to my Chill mix series. Downtempo, relaxing, soothing, intimate, enticing music.")
 });
 
 $("#lit")
