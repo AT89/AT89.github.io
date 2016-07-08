@@ -43,7 +43,10 @@ h2{
     text-align: center;
     padding-top: 15px;
 }
-    .Llink{
+.dev_sidebar{
+  width: 300px;
+}
+    .dev_links{
         /*background-image: url("logo.png");*/
         padding-left: 50px;
         background-repeat: no-repeat;
@@ -51,15 +54,17 @@ h2{
         margin-left: 0;
         margin-right: auto;
         background-size: 80%;
-        width: 200px;
+
     }
-        .Llink li{
+        .dev_links li{
+            /*outline: 2px solid blue;*/
             padding: 15px;
             font-size: 30px;
             display: block;
             text-transform: uppercase;
         }
-        .Llink li a{
+        .dev_links li a{
+          /*outline: 2px solid red;*/
         	display: block;
         	/*text-transform: uppercase;*/
         	text-shadow: 0px 0px 5px #fff;
@@ -70,10 +75,10 @@ h2{
         	-ms-transition: all 0.3s ease-in-out;
         	transition: all 0.3s ease-in-out;
         }
-        .Llink:hover li a{
+        .dev_links:hover li a{
         	text-shadow: 0px 0px 5px #fff;
         }
-        .Llink li a:hover{
+        .dev_links li a:hover{
         	color: #fff;
         	text-shadow: 0px 0px 1px #fff;
         	padding-left: 10px;

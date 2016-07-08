@@ -1,0 +1,29 @@
+$("#war")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("First project at General Assembly, it's the War card game in Javascript but with a surprise :) <br>Full Disclosure: lower audio volume")
+});
+
+$("#github")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("My Github profile: all my projects and learning exercises repositories from General Assembly and my favorite projects forks")
+});
+
+$("#bp2015")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Download the recorded live mix from the Barn Party 2015. This mix had about 600+ plays on Soundcloud before it was taken down :(")
+});
+
+$("#chill")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Link to my Chill mix series.")
+});
+
+$("#lit")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Soundcloud link. Fast. Upbeat. Belligerent music.")
+});
+
+$("ul li")
+.on("mouseout", function(e){
+  $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
+})
