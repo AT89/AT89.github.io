@@ -1,6 +1,6 @@
 $("#firstsite")
 .on("mouseover", function(e){
-  $("#contentBlog").first().html("First website I made, I leave it on here to contrast how far I've come. Of course goofiness was intended")
+  $("#contentBlog").first().html("First website I made, I leave it on here to contrast how far I've come. Of course goofiness was intended.")
 });
 
 $("#war")
@@ -15,7 +15,7 @@ $("#github")
 
 $("#bp2015")
 .on("mouseover", function(e){
-  $("#contentBlog").first().html("Download the recorded live mix from the Barn Party 2015. This mix had about 600+ plays on Soundcloud before it was taken down :(")
+  $("#contentBlog").first().html("Download (right click save link as) or stream the recorded live mix from the Barn Party 2015. This mix had about 600+ plays on Soundcloud before it was taken down :(")
 });
 
 $("#chill")
@@ -29,6 +29,19 @@ $("#lit")
 });
 
 $("ul li")
+.on("mouseout", function(e){
+  $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
+})
+
+
+
+
+$("#bio")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("I am a modern renaissance man who believes in being better than who I was yesterday. I enjoy learning, being creative and utilizing my resources to create innovative solutions.")
+});
+
+$("#bio")
 .on("mouseout", function(e){
   $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
 })

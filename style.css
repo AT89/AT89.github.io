@@ -20,6 +20,7 @@ body{
      -o-background-size: cover;
      background-size: cover;
 }
+
 html, body{
      font-family: "Helvetica Neue", Helvetica, sans-serif;
      font-size:18px;
@@ -128,6 +129,7 @@ h3{
     font-family: 'Lobster', cursive;
     text-transform: none;
 }
+
 #lit{
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
