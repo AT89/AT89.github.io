@@ -10,7 +10,7 @@ $("#war")
 
 $("#github")
 .on("mouseover", function(e){
-  $("#contentBlog").first().html("My Github profile: all my projects and learning exercises repositories from General Assembly and my favorite projects forks")
+  $("#contentBlog").first().html("My Github profile: all my projects and learning exercises repositories from General Assembly and my favorite project forks")
 });
 
 $("#bp2015")
