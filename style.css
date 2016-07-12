@@ -68,8 +68,8 @@ h3{
     height: 300px;
     position: absolute;
     right: 0px;
-    margin-right: 50px;
-    bottom: 20px;
+    margin-right: -70px;
+    bottom: -20px;
 }
 .music_links{
     /*background-image: url("logo.png");*/
@@ -85,7 +85,7 @@ h3{
   width: 300px;
   top: 250px;
   position: absolute;
-  left: 0px;
+  left: -50px;
 }
     .dev_links{
         /*background-image: url("logo.png");*/
@@ -166,7 +166,7 @@ padding: 20px 20px 20px 20px;
 
 
 
-@media all and (max-width: 50em) {
+@media all and (max-width: 51em) {
 
   #contentBlog{
     top: 500px;
