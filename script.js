@@ -3,6 +3,12 @@ $("#bio")
   $("#contentBlog").first().html("I am a modern renaissance man who believes in being better than who I was yesterday. I enjoy learning, being creative and utilizing my resources to create innovative solutions. ")
 });
 
+$("#linkedin")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Feel free to connect with me!")
+});
+
+
 $("#github")
 .on("mouseover", function(e){
   $("#contentBlog").first().html("My Github profile: all my projects and learning exercises repositories from General Assembly and my favorite project forks")
