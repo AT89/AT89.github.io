@@ -214,6 +214,9 @@ padding: 20px 20px 20px 20px;
   }*/
 }
 @media all and (max-width: 375px) {
+  *{
+    font-size: 80%;
+  }
   #contentBlog{
     opacity:0;
   }
