@@ -26,7 +26,12 @@ $("#war")
 
 $("#townboard")
 .on("mouseover", function(e){
-  $("#contentBlog").first().html("My first deployed Ruby on Rails Crud App, with Heroku hosting. I wanted to create a local messageboard for users to share information. Since the boards are seeded, these boards can be used for anything. Still a work in progress.")
+  $("#contentBlog").first().html("My first deployed Ruby on Rails CRUD App, with Heroku hosting. I wanted to create a local messageboard for users to share information. Since the boards are seeded, these boards can be used for anything. Still a work in progress.")
+});
+
+$("#oneaux")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.")
 });
 
 $("#bp2015")
