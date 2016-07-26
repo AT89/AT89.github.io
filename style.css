@@ -200,7 +200,7 @@ padding: 20px 20px 20px 20px;
 
     background: linear-gradient(323deg, #371fd1, #5e1fd1, #FFD700, #9e9e5c,#6d6c6c,#000000);
 
-      /*(327deg, #ffffff, #91d1e7, #0dd483);*/
+
 
 
       background-size: 10000% 10000%;
@@ -219,14 +219,14 @@ padding: 20px 20px 20px 20px;
    top: 500px;
   }
 
-  /*#logoblog{
+  #logoblog{
     height: 300px;
     width: auto;
     background-image: url("logo.png");
     background-size: 30%, cover;
     background-repeat: no-repeat;
     background-position: center;
-  }*/
+  }
 }
 @media  screen and (max-width: 773px) {
   *{
