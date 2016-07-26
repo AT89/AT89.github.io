@@ -167,10 +167,29 @@ padding: 20px 20px 20px 20px;
 
 /*Mobile :)*/
 
+@media only screen and (max-device-width: 480px) {
+  body{
+
+    background: linear-gradient(323deg, #371fd1, #5e1fd1, #FFD700, #9e9e5c,#6d6c6c,#000000);
+
+      /*(327deg, #ffffff, #91d1e7, #0dd483);*/
 
 
+      background-size: 10000% 10000%;
+      background-position: 0 0;
 
-@media only screen and (max-width: 51em) {
+      animation: coolcolors 60s ease infinite;
+
+    }
+    @keyframes coolcolors {
+        0%{background-position:0% 22%}
+        50%{background-position:100% 79%}
+        100%{background-position:0% 22%}
+  }
+}
+
+
+@media  screen and (max-width: 51em) {
 
   #contentBlog{
     top: 500px;
@@ -178,7 +197,7 @@ padding: 20px 20px 20px 20px;
 
 }
 
-@media only screen and (max-width: 40em) {
+@media  screen and (max-width: 40em) {
 
   body{
 
@@ -212,7 +231,7 @@ padding: 20px 20px 20px 20px;
     background-position: center;
   }*/
 }
-@media only screen and (max-width: 773px) {
+@media  screen and (max-width: 773px) {
   *{
     font-size: 80%;
   }
@@ -227,7 +246,7 @@ padding: 20px 20px 20px 20px;
    background-size: 100%;
   }*/
 }
-@media only screen and (max-width: 629px) {
+@media  screen and (max-width: 629px) {
 contentBlog{
   opacity: 0;
 }
