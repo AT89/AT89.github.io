@@ -168,24 +168,18 @@ padding: 20px 20px 20px 20px;
 /*Mobile :)*/
 
 @media only screen and (max-device-width: 480px) {
-  body{
 
-    background: linear-gradient(323deg, #371fd1, #5e1fd1, #FFD700, #9e9e5c,#6d6c6c,#000000);
-
-      /*(327deg, #ffffff, #91d1e7, #0dd483);*/
-
-
-      background-size: 10000% 10000%;
-      background-position: 0 0;
-
-      animation: coolcolors 60s ease infinite;
-
+    body{
+         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("bg.jpg");
+         background-position-x: 80%;
+         background-position-y: 50%;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: fill;
     }
-    @keyframes coolcolors {
-        0%{background-position:0% 22%}
-        50%{background-position:100% 79%}
-        100%{background-position:0% 22%}
-  }
   #contentBlog{
     opacity: 0;
   }
