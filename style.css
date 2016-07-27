@@ -187,6 +187,7 @@ padding: 20px 20px 20px 20px;
         50%{background-position:100% 79%}
         100%{background-position:0% 22%}
   }
+
   #logoblog{
     height: 300px;
     width: auto;
@@ -195,6 +196,7 @@ padding: 20px 20px 20px 20px;
     background-repeat: no-repeat;
     background-position: center;
   }
+
   #contentBlog{
     opacity: 0;
   }
@@ -251,9 +253,7 @@ padding: 20px 20px 20px 20px;
     /*opacity:0;*/
     font-size: 120%;
   }
-  .dev_sidebar{
-    top: 200px;
-  }
+
   /*body{
    background-size: 100%;
   }*/
