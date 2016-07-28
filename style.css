@@ -9,6 +9,11 @@
   line-height:inherit;
   color:inherit;
 }
+#box{
+  height:1920px;
+  width: 1080px;
+  display: block;
+}
 body{
      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("bg.jpg");
      background-position-x: 50%;
@@ -19,6 +24,8 @@ body{
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: fill;
+     overflow:hidden;
+
 }
 
 html, body{
@@ -253,7 +260,9 @@ padding: 20px 20px 20px 20px;
     /*opacity:0;*/
     font-size: 120%;
   }
-
+  .dev_sidebar{
+    top: 200px;
+  }
   /*body{
    background-size: 100%;
   }*/
