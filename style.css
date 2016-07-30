@@ -32,6 +32,11 @@ html, body{
   text-shadow: 1px 1px 0px #000000;
 
 }
+.hero{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 h1{
   font-family: 'Lobster', cursive;
   font-size:60px;
@@ -159,21 +164,20 @@ p#connect a:hover{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 300px;
+  top: 340px;
   /*border: 5px solid orange;*/
 }
 .go{
   color: #33BBE8;
-  font-size: 30px;
+  font-size: 20px;
 }
-
 
 
 
 
 /*Mobile :)*/
 
-@media only screen and (max-device-width: 480px) {
+/*@media only screen and (max-device-width: 480px) {
 
   body{
 
@@ -204,8 +208,9 @@ p#connect a:hover{
   }
 
   #contentBlog{
-    opacity: 0;
+    opacity: 1;
   }
+
 }
 
 
@@ -270,4 +275,4 @@ p#connect a:hover{
   contentBlog{
     opacity: 0;
   }
-}
+}*/
