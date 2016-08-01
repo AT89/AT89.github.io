@@ -177,3 +177,22 @@ p#connect a:hover{
   left: 60%;
   z-index: -1;
 }
+
+/*phone*/
+
+@media only screen and (max-device-width: 480px) {
+
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
+    background-position-x: 80%;
+    background-position-y: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+    overflow: auto;
+  }
+
+}
