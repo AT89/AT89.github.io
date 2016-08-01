@@ -3,15 +3,20 @@ $("#bio")
   $("#contentBlog").first().html("I am a modern renaissance man who believes in being better than who I was yesterday. I enjoy learning, being creative and utilizing my resources to create innovative solutions. ")
 });
 
-$("#linkedin")
-.on("mouseover", function(e){
-  $("#contentBlog").first().html("Feel free to connect with me!")
+$("#skills")
+.on("mouseover click", function(e){
+  $("#contentBlog").first().html("<br><br><br><br>Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Javascript, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, CSS, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
 });
 
 
 $("#github")
 .on("mouseover", function(e){
   $("#contentBlog").first().html("My Github profile: all my projects and learning exercises repositories from General Assembly and my favorite project forks")
+});
+
+$("#linkedin")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Feel free to connect with me!")
 });
 
 $("#email")
