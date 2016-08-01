@@ -5,7 +5,7 @@ $("#bio")
 
 $("#skills")
 .on("mouseover click", function(e){
-  $("#contentBlog").first().html("<br><br><br><br>Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Javascript, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, CSS, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
+  $("#contentBlog").first().html("<br><br><br><br>Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, CSS, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
 });
 
 
