@@ -4,10 +4,14 @@ $("#bio")
 });
 
 $("#skills")
-.on("mouseover click", function(e){
-  $("#contentBlog").first().html("<br><br><br><br>Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, CSS, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Click to see <br>Full Stack Web Developer skills")
 });
 
+$("#skills")
+.on("click", function(e){
+  $("#contentBlog").first().html("<br><br><br><br>Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Ruby, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, CSS, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
+});
 
 $("#github")
 .on("mouseover", function(e){
@@ -65,11 +69,6 @@ $("#lit")
   $("#contentBlog").first().html("Soundcloud link. Fast. Upbeat. Belligerent music.<br><br><a class='go' href='https://soundcloud.com/anhtice/tracks'>SC Link</a>")
 });
 
-
-// $("ul li")
-// .on("mouseout", function(e){
-//   $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
-// })
 
 $(".hero")
 .on("mouseout", function(e){
