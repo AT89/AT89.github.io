@@ -46,7 +46,7 @@ $("#instagram")
 
 $("#oneaux")
 .on("click", function(e){
-  $("#contentBlog").first().html("<br><br>Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.<br><br> Still a work in progress. <br><br><br><a class='go' href='https://at89.github.io/oneaux/'>App</a> | <a class='go' href='http://github.com/at89/oneaux'>Github</a>")
+  $("#contentBlog").first().html("<br><br>Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.<br><br> Still a work in progress. <br><br><br><a class='go' href='http://oneaux.net/'>App</a> | <a class='go' href='http://github.com/at89/oneaux'>Github</a>")
 });
 
 // $("#cr2016")
