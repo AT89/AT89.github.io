@@ -15,7 +15,7 @@ $("#skills")
 
 $("#github")
 .on("mouseover", function(e){
-  $("#contentBlog").first().html("My Github profile: all my projects and learning exercises repositories from General Assembly and my favorite project forks")
+  $("#contentBlog").first().html("My Github profile: all my projects, learning exercises, repositories from General Assembly and my favorite project forks")
 });
 
 $("#linkedin")
@@ -70,7 +70,13 @@ $("#lit")
 });
 
 
-$(".hero")
+$("#bio")
+.on("mouseout", function(e){
+  $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
+})
+
+
+$("#connect")
 .on("mouseout", function(e){
   $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
 })
