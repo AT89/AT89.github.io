@@ -3,30 +3,30 @@ $("#bio")
   $("#contentBlog").first().html("I am a modern renaissance man who believes in being better than who I was yesterday. I enjoy learning, being creative and utilizing my resources to create innovative solutions. ")
 });
 
-// $("#skills")
-// .on("mouseover", function(e){
-//   $("#contentBlog").first().html("Click to see <br>Full Stack Web Developer skills")
-// });
+$("#skills")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Click to see <br>Full Stack Web Developer skills")
+});
 
 $("#skills")
 .on("click", function(e){
   $("#contentBlog").first().html("<br><br><br><br>Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Ruby, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, CSS, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
 });
 
-// $("#github")
-// .on("mouseover", function(e){
-//   $("#contentBlog").first().html("My Github profile: all my projects, learning exercises, repositories from General Assembly and my favorite project forks")
-// });
+$("#github")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("My Github profile: all my projects, learning exercises, repositories from General Assembly and my favorite project forks")
+});
 
-// $("#linkedin")
-// .on("mouseover", function(e){
-//   $("#contentBlog").first().html("Feel free to connect with me!")
-// });
+$("#linkedin")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Feel free to connect with me!")
+});
 
-// $("#email")
-// .on("mouseover", function(e){
-//   $("#contentBlog").first().html("Feel free to reach out to me!")
-// });
+$("#email")
+.on("mouseover", function(e){
+  $("#contentBlog").first().html("Feel free to reach out to me!")
+});
 
 $("#war")
 .on("click", function(e){
@@ -76,7 +76,7 @@ $("#bio")
 })
 
 
-// $("#connect")
-// .on("mouseout", function(e){
-//   $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
-// })
+$("#connect")
+.on("mouseout", function(e){
+  $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
+})
