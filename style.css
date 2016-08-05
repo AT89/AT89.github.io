@@ -141,11 +141,14 @@ h3{
 }
 
 
-p#connect a:hover{
+#extlinks a:hover{
   color: #33BBE8;
 }
 #bio:hover{
   color: #33BBE8;
+}
+a#skills:hover{
+  color: pink;
 }
 #chill{
   font-family: 'Lobster', cursive;
