@@ -263,7 +263,7 @@ a#skills:hover{
 @media only screen and (max-width: 750px) {
 
   body{
-    background-image: url("bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .5)), url("bg.jpg");
     background-position-x: 20%;
     background-position-y: 10%;
     background-attachment: fixed;
@@ -294,6 +294,35 @@ a#skills:hover{
 }
 /*phone*/
 
-/*@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .5)), url("bg.jpg");
+  background-position-x: 20%;
+  background-position-y: 10%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+}
+*{
+  font-size: 85%;
+}
+.dev_sidebar{
+  width: 300px;
+  top: 600px;
+  left: -50px;
+  height: 400px;
+}
+.music_sidebar{
+  font-size: 70%;
+  width: 300px;
+  height: 300px;
+  top: 600px;
+  right: -80px;
+}
+#contentBlog{
+  top: 350px;
+}
 
-}*/
+}
