@@ -30,23 +30,23 @@ $("#skills")
 
 $("#war")
 .on("click", function(e){
-  $("#contentBlog").first().html("First project at General Assembly, it's the War card game in Javascript but with a surprise :)<br> <br>Full Disclosure: lower audio volume <br><br><a class='go' href='http://at89.github.io/WARCARDGAME'>App</a> | <a class='go' href='http://github.com/at89/WARCARDGAME'>Github</a>"
+  $("#contentBlog").first().html("First project at General Assembly, it's the War card game in Javascript but with a surprise :)<br> <br>Full Disclosure: lower audio volume <br><br><a class='go' href='http://at89.github.io/WARCARDGAME'>App</a> | <a class='go2' href='http://github.com/at89/WARCARDGAME'>Github</a>"
 )
 });
 
 $("#townboard")
 .on("click", function(e){
-  $("#contentBlog").first().html("<br><br>My first deployed Ruby on Rails CRUD App, with Heroku hosting. I wanted to create a local messageboard for users to share information. Since the boards are seeded, these boards can be used for anything. <br><br>Still a work in progress.<br><br><a class='go' href='https://anh-townboard.herokuapp.com/boards/'>App</a> | <a class='go' href='http://github.com/at89/townboard'>Github</a>")
+  $("#contentBlog").first().html("<br><br>My first deployed Ruby on Rails CRUD App, with Heroku hosting. I wanted to create a local messageboard for users to share information. Since the boards are seeded, these boards can be used for anything. <br><br>Still a work in progress.<br><br><a class='go' href='https://anh-townboard.herokuapp.com/boards/'>App</a> | <a class='go2' href='http://github.com/at89/townboard'>Github</a>")
 });
 
 $("#instagram")
 .on("click", function(e){
-  $("#contentBlog").first().html("<br><br>Instagram Gallery feed.<br> Using slick.js (the best carousel CDN) <br><br><a class='go' href='https://at89.github.io/instagramfeed'>App</a> | <a class='go' href='http://kenwheeler.github.io/slick/'>Slick</a> | <a class='go' href='https://github.com/AT89/instagramfeed'>Github</a> ")
+  $("#contentBlog").first().html("<br><br>Instagram Gallery feed.<br> Using slick.js (the best carousel CDN) <br><br><a class='go' href='https://at89.github.io/instagramfeed'>App</a> | <a class='go' href='http://kenwheeler.github.io/slick/'>Slick</a> | <a class='go2' href='https://github.com/AT89/instagramfeed'>Github</a> ")
 });
 
 $("#oneaux")
 .on("click", function(e){
-  $("#contentBlog").first().html("<br><br>Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.<br><br> Still a work in progress. <br><br><br><a class='go' href='http://oneaux.net/'>App</a> | <a class='go' href='http://github.com/at89/oneaux'>Github</a>")
+  $("#contentBlog").first().html("<br><br>Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.<br><br> Still a work in progress. <br><br><br><a class='go' href='http://oneaux.net/'>App</a> | <a class='go2' href='http://github.com/at89/oneaux'>Github</a>")
 });
 
 // $("#cr2016")

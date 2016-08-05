@@ -11,7 +11,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .5)), url("bg.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-attachment: fixed;
@@ -21,6 +21,7 @@ body{
   -o-background-size: cover;
   background-size: fill;
   overflow:hidden;
+  display: flex;
 
 }
 
@@ -36,14 +37,10 @@ html, body{
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
-#skills{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 
-}
 h1{
   font-family: 'Lobster', cursive;
   font-size:60px;
@@ -87,10 +84,7 @@ h3{
   bottom: 0px;
 }
 .music_links{
-  /*background-image: url("logo.png");*/
   padding-left: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-left: 0;
   margin-right: auto;
   background-size: 80%;
@@ -105,9 +99,8 @@ h3{
 .dev_links{
   /*background-image: url("logo.png");*/
   padding-left: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 0;
+
+
   margin-right: auto;
   background-size: 80%;
 
@@ -173,6 +166,10 @@ a#skills:hover{
   color: #33BBE8;
   font-size: 20px;
 }
+.go2{
+  color: pink;
+  font-size: 20px;
+}
 #logocontainer{
   margin-left: 50%;
   margin-right: 50%;
@@ -193,6 +190,7 @@ a#skills:hover{
   height: 700px;
   border-radius: 50%;
   perspective: 800px;
+  z-index:-1;
 }
 .loader2 {
   position: absolute;
@@ -202,6 +200,7 @@ a#skills:hover{
   height: 1000px;
   border-radius: 50%;
   perspective: 800px;
+  z-index:-1;
 }
 
 .inner {
@@ -260,22 +259,65 @@ a#skills:hover{
   }
 }
 
-
-/*phone*/
-
-@media only screen and (max-device-width: 480px) {
+/*window resize*/
+@media only screen and (max-width: 750px) {
 
   body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
-    background-position-x: 80%;
-    background-position-y: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .8)), url("bg.jpg");
+    background-position-x: 20%;
+    background-position-y: 10%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: auto;
-    overflow: auto;
+    overflow: hidden;
+    display: flex;
   }
+  .dev_sidebar{
+    width: 300px;
+    top: 600px;
+    left: -50px;
+    height: 400px;
+  }
+  .music_sidebar{
+    width: 300px;
+    height: 300px;
+    top: 600px;
+    right: -80px;
+    margin-right: 0px;
+  }
+}
+/*phone*/
 
+@media only screen and (max-device-width: 480px) {
+
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .8)), url("bg.jpg");
+    background-position-x: 20%;
+    background-position-y: 10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+    overflow: hidden;
+    display: flex;
+  }
+  .dev_sidebar{
+    width: 300px;
+    top: 800px;
+    left: -50px;
+    height: 400px;
+  }
+  .music_sidebar{
+    width: 300px;
+    height: 300px;
+    top: 800px;
+    right: -80px;
+    margin-right: 0px;
+
+  }
 }
