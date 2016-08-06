@@ -133,7 +133,9 @@ h3{
   text-shadow: 0px 0px 1px #fff;
 
 }
-
+#connect{
+  z-index: 1;
+}
 
 #extlinks a:hover{
   color: #33BBE8;
@@ -161,6 +163,7 @@ a#skills:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   top: 400px;
+  margin-top: 100px;
   /*border: 5px solid orange;*/
 }
 .go{
@@ -291,6 +294,7 @@ a#skills:hover{
   }
   #contentBlog{
     top: 350px;
+    margin-top: 60px;
   }
 }
 /*phone*/
@@ -322,7 +326,9 @@ body{
   right: -80px;
 }
 #contentBlog{
-  top: 350px;
+  #contentBlog{
+    top: 350px;
+    margin-top: 60px;
 }
 
 }
