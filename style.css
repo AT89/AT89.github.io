@@ -186,22 +186,24 @@ a#skills:hover{
 }
 
 /*mobius reactor*/
-.loader {
+.mobiusreactor {
+  opacity: 0.5;
   position: absolute;
-  top: calc(50% - 32px);
-  left: calc(50% - 32px);
-  width: 700px;
-  height: 700px;
+  top: calc(50%);
+  left: calc(45%);
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   perspective: 800px;
   z-index:-1;
 }
-.loader2 {
+.mobiusreactor2 {
+    opacity: 0.8;
   position: absolute;
-  top: calc(50% - 32px);
-  left: calc(50% - 32px);
-  width: 1000px;
-  height: 1000px;
+  top: calc(40%);
+  left: calc(40%);
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   perspective: 800px;
   z-index:-1;
@@ -295,6 +297,28 @@ a#skills:hover{
   #contentBlog{
     top: 350px;
     margin-top: 60px;
+  }
+  .mobiusreactor {
+    opacity: 0.5;
+    position: absolute;
+    top: calc(50%);
+    left: calc(40%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    perspective: 800px;
+    z-index:-1;
+  }
+  .mobiusreactor2 {
+      opacity: 0.8;
+    position: absolute;
+    top: calc(40%);
+    left: calc(25%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    perspective: 800px;
+    z-index:-1;
   }
 }
 /*phone*/
