@@ -189,7 +189,7 @@ a#skills:hover{
 .mobiusreactor {
   opacity: 0.5;
   position: absolute;
-  left: 45%;
+  left: 50%;
   top: 50%;
   width: 100px;
   height: 100px;
@@ -200,7 +200,8 @@ a#skills:hover{
 .mobiusreactor2 {
   opacity: 0.8;
   position: absolute;
-  left: 40%;
+  left: 42%;
+  margin-right: -58%;
   top: 40%;
   width: 200px;
   height: 200px;
@@ -354,6 +355,7 @@ body{
     top: 350px;
     margin-top: 60px;
 }
+
 .mobiusreactor {
   opacity: 0.5;
   position: absolute;
