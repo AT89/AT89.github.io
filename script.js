@@ -49,6 +49,11 @@ $("#oneaux")
   $("#contentBlog").first().html("Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.<br><br> Still a work in progress. <br><br><br><a class='go' href='http://oneaux.net/'>App</a> | <a class='go2' href='http://github.com/at89/oneaux'>Github</a>")
 });
 
+$("#nyan-cat")
+.on("click", function(e){
+  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets and test out ionic/Angular to make it Mobile friendly. Still a Work in progress but its so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat_the_game/'>App</a> | <a class='go2' href='http://github.com/at89/nyancat_the_game'>Github</a>")
+});
+
 // $("#cr2016")
 // .on("mouseover", function(e){
 //   $("#contentBlog").first().html("My mix for Camp Rise 2016 .<br>To be released<br>Not yet recorded/played.")

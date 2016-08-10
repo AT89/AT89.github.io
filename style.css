@@ -282,6 +282,10 @@ a#skills:hover{
   *{
     font-size: 85%;
   }
+  .dev_links li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   .dev_sidebar{
     width: 300px;
     top: 600px;
@@ -336,6 +340,10 @@ body{
 }
 *{
   font-size: 85%;
+}
+.dev_links li {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .dev_sidebar{
   width: 300px;
