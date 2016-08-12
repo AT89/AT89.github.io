@@ -8,6 +8,9 @@
   text-decoration:inherit;
   line-height:inherit;
   color:inherit;
+  transition-property: all;
+        transition-duration: .5s;
+        transition-timing-function: ease;
 }
 
 body{
