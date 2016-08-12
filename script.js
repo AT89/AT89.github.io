@@ -36,7 +36,7 @@ $("#war")
 
 $("#townboard")
 .on("click", function(e){
-  $("#contentBlog").first().html("My first deployed Ruby on Rails CRUD App, with Heroku hosting. I wanted to create a local messageboard for users to share information. Since the boards are seeded, these boards can be used for anything. <br><br>Still a work in progress.<br><br><a class='go' href='https://anh-townboard.herokuapp.com/boards/'>App</a> | <a class='go2' href='http://github.com/at89/townboard'>Github</a>")
+  $("#contentBlog").first().html("My first deployed Ruby on Rails CRUD App, with Heroku hosting. I wanted to create a local messageboard for users to share information. Since the boards are seeded (and double nested), these boards can be used for anything. <br><br>Still a work in progress.<br><br><a class='go' href='https://anh-townboard.herokuapp.com/boards/'>App</a> | <a class='go2' href='http://github.com/at89/townboard'>Github</a>")
 });
 
 $("#instagram")
@@ -55,7 +55,7 @@ $("#motivation")
 
 $("#nyan-cat")
 .on("click", function(e){
-  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets** and test out ionic/Angular to make it Mobile friendly. Still a Work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
+  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets** and test out Ionic and Angular to make it Mobile friendly. Still a Work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
 });
 
 // $("#cr2016")
