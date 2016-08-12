@@ -48,10 +48,14 @@ $("#oneaux")
 .on("click", function(e){
   $("#contentBlog").first().html("Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.<br><br> Still a work in progress. <br><br><br><a class='go' href='http://oneaux.net/'>App</a> | <a class='go2' href='http://github.com/at89/oneaux'>Github</a>")
 });
+$("#motivation")
+.on("click", function(e){
+  $("#contentBlog").first().html("Read exciting, thought-provoking quips  on beautiful backgrounds around the world! Using AJAX calls on subreddits. <br><br><br><a class='go' href='https://at89.github.io/automotivationals'>App</a> | <a class='go2' href='http://github.com/at89/automotivationals'>Github</a>")
+});
 
 $("#nyan-cat")
 .on("click", function(e){
-  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets and test out ionic/Angular to make it Mobile friendly. Still a Work in progress but its so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
+  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets** and test out ionic/Angular to make it Mobile friendly. Still a Work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
 });
 
 // $("#cr2016")
