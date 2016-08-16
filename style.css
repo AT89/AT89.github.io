@@ -158,6 +158,15 @@ a#skills:hover{
   font-family: 'Anton', sans-serif;
   text-transform: uppercase;
 }
+#picturebox{
+  /*border: blue 2px solid;*/
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  top: 30%;
+}
 
 #contentBlog{
   font-size: 25px;
@@ -166,7 +175,7 @@ a#skills:hover{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 400px;
+  top: 50%;
   margin-top: 100px;
   /*border: 5px solid orange;*/
 }
@@ -192,9 +201,9 @@ a#skills:hover{
 /*mobius reactor*/
 .mobiusreactor {
   opacity: 0.5;
-  position: absolute;
-  left: 50%;
-  top: 5%;
+  /*position: absolute;*/
+  /*left: 50%;
+  top: 5%;*/
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -202,16 +211,16 @@ a#skills:hover{
   z-index:-1;
 }
 .mobiusreactor2 {
-  opacity: 0.8;
+  /*opacity: 0.8;
   position: absolute;
   left: 42%;
   margin-right: -60%;
   top: 0%;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   perspective: 800px;
-  z-index:-1;
+  z-index:-1;*/
 }
 
 .inner {
@@ -270,6 +279,8 @@ a#skills:hover{
   }
 }
 
+
+
 /*window resize*/
 @media only screen and (max-width: 750px) {
 
@@ -309,25 +320,25 @@ a#skills:hover{
   }
   .mobiusreactor {
     opacity: 0.0;
-    position: absolute;
+    /*position: absolute;
     top: calc(5%);
     left: calc(50%);
     width: 100px;
     height: 100px;
     border-radius: 50%;
     perspective: 800px;
-    z-index:-1;
+    z-index:-1;*/
   }
   .mobiusreactor2 {
-      opacity: 0.0;
-    position: absolute;
+    opacity: 0.0;
+    /*position: absolute;
     top: calc(5%);
     left: calc(30%);
     width: 200px;
     height: 200px;
     border-radius: 50%;
     perspective: 800px;
-    z-index:-1;
+    z-index:-1;*/
   }
 }
 /*phone*/
@@ -369,26 +380,26 @@ body{
 }
 
 .mobiusreactor {
-  opacity: 0.5;
-  position: absolute;
+  opacity: 0.0;
+  /*position: absolute;
   top: calc(5%);
   left: calc(50)%);
   width: 100px;
   height: 100px;
   border-radius: 50%;
   perspective: 800px;
-  z-index:-1;
+  z-index:-1;*/
 }
 .mobiusreactor2 {
-    opacity: 0.8;
-  position: absolute;
+  opacity: 0.0;
+  /*position: absolute;
   top: calc(50%);
   left: calc(42%);
   width: 200px;
   height: 200px;
   border-radius: 50%;
   perspective: 800px;
-  z-index:-1;
+  z-index:-1;*/
 }
 
 }
