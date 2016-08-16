@@ -55,7 +55,7 @@ $("#motivation")
 
 $("#nyan-cat")
 .on("click", function(e){
-  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets** and test out Ionic and Angular to make it Mobile friendly. Still a Work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
+  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets** and test out Ionic and Angular to make it Mobile-app. Still a Work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
 });
 
 // $("#cr2016")
