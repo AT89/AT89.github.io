@@ -41,7 +41,7 @@ $("#townboard")
 
 $("#instagram")
 .on("click", function(e){
-  $("#contentBlog").first().html("Instagram Gallery feed.<br> Using slick.js (the best carousel CDN) <br><br><a class='go' href='https://at89.github.io/instagramfeed'>App</a> | <a class='go' href='http://kenwheeler.github.io/slick/'>Slick</a> | <a class='go2' href='https://github.com/AT89/instagramfeed'>Github</a> ")
+  $("#contentBlog").first().html("Instagram Gallery feed.<br> Using slick.js (the best carousel library) <br><br><a class='go' href='https://at89.github.io/instagramfeed'>App</a> | <a class='go' href='http://kenwheeler.github.io/slick/'>Slick</a> | <a class='go2' href='https://github.com/AT89/instagramfeed'>Github</a> ")
 });
 
 $("#oneaux")

@@ -14,7 +14,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .5)), url("bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-attachment: fixed;
@@ -160,6 +160,7 @@ a#skills:hover{
 }
 
 #contentBlog{
+  font-size: 25px;
   text-align: center;
   width: 350px;
   position: absolute;
@@ -193,7 +194,7 @@ a#skills:hover{
   opacity: 0.5;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 5%;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -204,8 +205,8 @@ a#skills:hover{
   opacity: 0.8;
   position: absolute;
   left: 42%;
-  margin-right: -58%;
-  top: 40%;
+  margin-right: -60%;
+  top: 0%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -307,10 +308,10 @@ a#skills:hover{
     margin-top: 60px;
   }
   .mobiusreactor {
-    opacity: 0.5;
+    opacity: 0.0;
     position: absolute;
-    top: calc(50%);
-    left: calc(40%);
+    top: calc(5%);
+    left: calc(50%);
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -318,10 +319,10 @@ a#skills:hover{
     z-index:-1;
   }
   .mobiusreactor2 {
-      opacity: 0.8;
+      opacity: 0.0;
     position: absolute;
-    top: calc(40%);
-    left: calc(35%);
+    top: calc(5%);
+    left: calc(30%);
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -370,8 +371,8 @@ body{
 .mobiusreactor {
   opacity: 0.5;
   position: absolute;
-  top: calc(50%);
-  left: calc(40%);
+  top: calc(5%);
+  left: calc(50)%);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -381,8 +382,8 @@ body{
 .mobiusreactor2 {
     opacity: 0.8;
   position: absolute;
-  top: calc(40%);
-  left: calc(35%);
+  top: calc(50%);
+  left: calc(42%);
   width: 200px;
   height: 200px;
   border-radius: 50%;
