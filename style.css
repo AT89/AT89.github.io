@@ -274,7 +274,7 @@ a#skills:hover{
 @media only screen and (max-width: 750px) {
 
   body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .5)), url("bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
     background-position-x: 20%;
     background-position-y: 10%;
     background-attachment: fixed;
@@ -308,7 +308,7 @@ a#skills:hover{
     margin-top: 60px;
   }
   .mobiusreactor {
-    opacity: 0.0;
+    opacity: 0;
     position: absolute;
     top: calc(5%);
     left: calc(50%);
@@ -319,7 +319,7 @@ a#skills:hover{
     z-index:-1;
   }
   .mobiusreactor2 {
-      opacity: 0.0;
+    opacity: 0;
     position: absolute;
     top: calc(5%);
     left: calc(30%);
@@ -334,7 +334,7 @@ a#skills:hover{
 
 @media only screen and (max-device-width: 480px) {
 body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .5)), url("bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
   background-position-x: 40%;
   background-position-y: 10%;
   background-attachment: fixed;
@@ -366,6 +366,7 @@ body{
   #contentBlog{
     top: 350px;
     margin-top: 60px;
+
 }
 
 .mobiusreactor {
