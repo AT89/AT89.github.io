@@ -162,7 +162,7 @@ a#skills:hover{
 #contentBlog{
   font-size: 25px;
   text-align: center;
-  width: 350px;
+  width: 550px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -271,7 +271,7 @@ a#skills:hover{
 }
 
 /*window resize*/
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
 
   body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");

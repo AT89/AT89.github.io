@@ -10,7 +10,7 @@ $("#skills")
 
 $("#skills")
 .on("click", function(e){
-  $("#contentBlog").first().html("Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Ruby, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, CSS, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
+  $("#contentBlog").first().html("Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Ruby, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, Bootstrap, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
 });
 
 $("#github")
@@ -50,12 +50,12 @@ $("#oneaux")
 });
 $("#motivation")
 .on("click", function(e){
-  $("#contentBlog").first().html("Read exciting, thought-provoking quips  on beautiful backgrounds around the world! Using AJAX calls on subreddits. <br><br><br><a class='go' href='https://at89.github.io/automotivationals'>App</a> | <a class='go2' href='http://github.com/at89/automotivationals'>Github</a>")
+  $("#contentBlog").first().html("Read exciting, thought-provoking quips  on beautiful backgrounds around the world!<br><br> Using AJAX calls on subreddits. <br><br><br><a class='go' href='https://at89.github.io/automotivationals'>App</a> | <a class='go2' href='http://github.com/at89/automotivationals'>Github</a>")
 });
 
 $("#nyan-cat")
 .on("click", function(e){
-  $("#contentBlog").first().html("Cute shoot em up game using Phaser.io, would like to implement this with websockets** and test out Ionic and Angular to make it Mobile-app. Still a Work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
+  $("#contentBlog").first().html("Cute shoot em up Phaser game. <br><br> Would like to implement this with websockets and have a high scores leaderboard<br><br>Still a work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
 });
 
 // $("#cr2016")
@@ -87,5 +87,5 @@ $("#bio")
 
 $("#github, #linkedin, #email")
 .on("mouseleave", function(e){
-  $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br>-The First History Man")
+  $("#contentBlog").first().html("Where must we go, we who wander this wasteland, in search of our better selves?<br><br>-The First History Man")
 })
