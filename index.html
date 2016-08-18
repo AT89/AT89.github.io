@@ -8,6 +8,8 @@
      <script src="jquery-3.0.0.min.js"></script>
      <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
      <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+     <link href="sakuraleaves/jquery-sakura.min.css" rel="stylesheet" type="text/css">
+
 
      <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
 </head>
@@ -46,7 +48,7 @@
 </div>
 
 
-  <div class="mobiusreactor">
+  <!-- <div class="mobiusreactor">
     <div class="inner one"></div>
     <div class="inner two"></div>
     <div class="inner three"></div>
@@ -55,7 +57,9 @@
     <div class="inner one"></div>
     <div class="inner two"></div>
     <div class="inner three"></div>
-  </div>
+  </div> -->
+
+
   <div id="contentBlog">
      <p>
         "Where must we go, we who wander this wasteland, in search of our better selves?"
@@ -88,5 +92,31 @@
 </div> -->
 
      <script src="script.js"></script>
+
+     <script src="sakuraleaves/jquery-sakura.min.js"></script>
+
+
+     <script>
+     $(window).load(function () {
+       $('body').sakura();
+     });
+     </script>
+
+     01
+<script>
+$(window).load(function () {
+$('body').sakura({
+blow<a href="http://www.jqueryscript.net/animation/">Animation</a>s: ['blow-soft-left', 'blow-medium-left', 'blow-hard-left', 'blow-soft-right', 'blow-medium-right', 'blow-hard-right'], // Horizontal movement animation names
+className: 'sakura', // Class name to use
+fallSpeed: 1, // Factor for petal fall speed
+maxSize: 14, // Maximum petal size
+minSize: 9, // Minimum petal size
+newOn: 300, // Interval after which a new petal is added
+swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sway-6', 'sway-7', 'sway-8'] // Swaying animation names
+});
+});
+</script>
+
+
 </body>
 </html>
