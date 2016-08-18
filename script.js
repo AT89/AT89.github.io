@@ -10,7 +10,7 @@ $("#skills")
 
 $("#skills")
 .on("click", function(e){
-  $("#contentBlog").first().html("Front-end: <br> JQuery, AngularJS, ReactJS <br><br> Back-end:<br> AJAX, SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Ruby, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, Bootstrap, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
+  $("#contentBlog").first().html("Front-end: <br> JQuery, AngularJS, ReactJS, AJAX <br><br> Back-end:<br> SQL, Rails, Express, Mongoose/MongoDB, PostGres, ActiveRecord, Firebase <br><br> Languages:<br> Javascript, Ruby, Python, ELM, PHP <br><br>Misc: <br>CLI, Git, Bootstrap, SASS, TDD (Rspec, Jasmine), Heroku, Wordpress, ES6")
 });
 
 $("#github")
