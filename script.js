@@ -65,7 +65,7 @@ $("#nyan-cat")
 
 $("#bp2015")
 .on("click", function(e){
-  $("#contentBlog").first().html("Download (right click save link as) or stream the recorded live mix from the Barn Party 2015. This mix had about 600+ plays on Soundcloud before it was taken down :(<br><br> <a class='go' href='http://mp3.anhtice.com/Others/BP2015.mp3'>BP 2015</a>")
+  $("#contentBlog").first().html("Download (right click save link as) or stream the recorded live mix from the Barn Party 2015.<br> This mix had about 600+ plays on Soundcloud before it was taken down :(<br><br> <a class='go' href='http://mp3.anhtice.com/Others/BP2015.mp3'>BP 2015</a>")
 });
 
 $("#chill")
