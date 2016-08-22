@@ -307,6 +307,8 @@ a#skills:hover{
   #contentBlog{
     top: 350px;
     margin-top: 60px;
+    width: 350px;
+    font-size: 80%;      
   }
   .mobiusreactor {
     opacity: 0;
