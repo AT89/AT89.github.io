@@ -14,7 +14,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg2.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-attachment: fixed;
@@ -34,8 +34,8 @@ html, body{
   line-height:30px;
   color:#ffffff;
   text-shadow: 1px 1px 0px #000000;
-
 }
+
 .hero{
   width: 400px;
   margin-left: auto;
@@ -272,12 +272,12 @@ a#skills:hover{
 }
 
 /*window resize*/
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
 
   body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
-    background-position-x: 20%;
-    background-position-y: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg2.jpg");
+    background-position-x: 40%;
+/*     background-position-y: 10%; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,7 +308,7 @@ a#skills:hover{
     top: 350px;
     margin-top: 60px;
     width: 350px;
-    font-size: 80%;      
+    font-size: 80%;
   }
   .mobiusreactor {
     opacity: 0;
@@ -337,7 +337,7 @@ a#skills:hover{
 
 @media only screen and (max-device-width: 480px) {
   body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg2.jpg");
     background-position-x: 40%;
     background-position-y: 10%;
     background-attachment: fixed;
