@@ -5,7 +5,7 @@ $("#bio")
 
 $("#skills")
 .on("mouseover", function(e){
-  $("#contentBlog").first().html("Click to see <br>Full Stack Web Developer skills")
+  $("#contentBlog").first().html("Click Skills to see <br>Full Stack Web Developer skills")
 });
 
 $("#skills")
@@ -41,21 +41,21 @@ $("#townboard")
 
 $("#instagram")
 .on("click", function(e){
-  $("#contentBlog").first().html("Instagram Gallery feed.<br> Using slick.js (the best carousel library) <br><br><a class='go' href='https://at89.github.io/instagramfeed'>App</a> | <a class='go' href='http://kenwheeler.github.io/slick/'>Slick</a> | <a class='go2' href='https://github.com/AT89/instagramfeed'>Github</a> ")
+  $("#contentBlog").first().html("Instagram Gallery feed<br><br> Using slick.js (the best carousel library) and Instagram Sandbox API <br><br><a class='go' href='https://at89.github.io/instagramfeed'>App</a> | <a class='go' href='http://kenwheeler.github.io/slick/'>Slick</a> | <a class='go2' href='https://github.com/AT89/instagramfeed'>Github</a> ")
 });
 
 $("#oneaux")
 .on("click", function(e){
-  $("#contentBlog").first().html("Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue in a Spotify playlist.<br><br> Still a work in progress. <br><br><br><a class='go' href='http://oneaux.net/'>App</a> | <a class='go2' href='http://github.com/at89/oneaux'>Github</a>")
+  $("#contentBlog").first().html("Single-Page (Angular JS) App that utilizes Spotify API to add songs to playlist (Rails API) and allows users to upvote and downvote songs to queue the Spotify playlist <br><br><a class='go' href='http://oneaux.net/'>App</a> | <a class='go2' href='http://github.com/at89/oneaux'>Github</a>")
 });
 $("#motivation")
 .on("click", function(e){
-  $("#contentBlog").first().html("Read exciting, thought-provoking quips  on beautiful backgrounds around the world!<br><br> Using AJAX calls on subreddits. <br><br><br><a class='go' href='https://at89.github.io/automotivationals'>App</a> | <a class='go2' href='http://github.com/at89/automotivationals'>Github</a>")
+  $("#contentBlog").first().html("Read exciting, thought-provoking quips  on beautiful backgrounds around the world!<br><br> Using AJAX calls on subreddits <br><br><br><a class='go' href='https://at89.github.io/automotivationals'>App</a> | <a class='go2' href='http://github.com/at89/automotivationals'>Github</a>")
 });
 
 $("#nyan-cat")
 .on("click", function(e){
-  $("#contentBlog").first().html("Cute shoot em up Phaser game. <br><br> Would like to implement this with websockets and have a high scores leaderboard<br><br>Still a work in progress but it's so cute!<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
+  $("#contentBlog").first().html("Cute shoot em up Phaser game <br><br> Working on getting a Leaderboard running<br><br> There is audio <br><br><br><a class='go' href='https://at89.github.io/nyancat'>App</a> | <a class='go2' href='http://github.com/at89/nyancat'>Github</a>")
 });
 
 // $("#cr2016")

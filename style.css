@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -14,7 +15,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)), url("bg4.jpg");
   background-position-x: 30%;
   background-position-y: 50%;
   background-attachment: fixed;
@@ -61,12 +62,12 @@ h2{
   padding-top: 15px;
 }
 h3{
-  font-size:60px;
+  font-family: 'Lobster', cursive;
+  font-size:55px;
   line-height:50px;
   font-weight:bold;
   text-align: center;
   padding: 10px;
-  font-family: 'Lobster', cursive;
 }
 #mixesheader{
   padding-right: 100px;
@@ -103,8 +104,6 @@ bottom: 200px;
 .dev_links{
   /*background-image: url("logo.png");*/
   padding-left: 50px;
-
-
   margin-right: auto;
   background-size: 80%;
 
@@ -132,8 +131,8 @@ bottom: 200px;
   text-shadow: 0px 0px 5px #fff;
 }
 .dev_links li a:hover{
-  color: pink;
-  text-shadow: 0px 0px 5px pink;
+  color: #e0b1b9;
+  text-shadow: 0px 0px 5px #e0b1b9;
   font-size: 110%;
 
 }
@@ -148,7 +147,7 @@ bottom: 200px;
   color: #f82dff;
 }
 a#skills:hover{
-  color: pink;
+  color: #e0b1b9;
 }
 #chill{
   font-family: 'Lobster', cursive;
@@ -161,6 +160,7 @@ a#skills:hover{
 }
 
 #contentBlog{
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, .1));
   font-size: 25px;
   text-align: center;
   width: 550px;
@@ -176,7 +176,7 @@ a#skills:hover{
   font-size: 20px;
 }
 .go2{
-  color: pink;
+  color: #e0b1b9;
   font-size: 20px;
 }
 #logocontainer{
@@ -227,7 +227,7 @@ a#skills:hover{
   left: 0%;
   top: 0%;
   animation: rotate-one 1s linear infinite;
-  border-bottom: 3px solid pink;
+  border-bottom: 3px solid #e0b1b9;
 }
 
 .inner.two {
@@ -276,7 +276,7 @@ a#skills:hover{
 
   body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg3.jpg");
-    background-position-x: 30%;
+    background-position-x: 20%;
 /*     background-position-y: 10%; */
     background-attachment: fixed;
     background-repeat: no-repeat;
