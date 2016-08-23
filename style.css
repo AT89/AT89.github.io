@@ -276,7 +276,7 @@ a#skills:hover{
 
   body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg3.jpg");
-    background-position-x: 20%;
+    background-position-x: 0%;
 /*     background-position-y: 10%; */
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -334,12 +334,89 @@ a#skills:hover{
     z-index:-1;
   }
 }
-/*phone*/
+
+@media only screen and (max-width: 700px) {
+
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
+    background-position-x: 35%;
+/*     background-position-y: 10%; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+  }
+/*Nexus 6p  TRYING*/
+@media screen and (max-width: 600px){
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
+    background-position-x: 35%;
+    background-position-y: 10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+  }
+  *{
+    font-size: 85%;
+  }
+  .dev_links li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .dev_sidebar{
+    width: 350px;
+    top: 600px;
+    left: -50px;
+    height: 400px;
+  }
+  .music_sidebar{
+    font-size: 70%;
+    width: 300px;
+    height: 300px;
+    top: 600px;
+    right: -80px;
+  }
+  #contentBlog{
+      top: 350px;
+      margin-top: 60px;
+      font-size: 80%;
+      width: 350px;
+    }
+
+    .mobiusreactor {
+      opacity: 0.5;
+      position: absolute;
+      top: calc(5%);
+      left: calc(50)%);
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      perspective: 800px;
+      z-index:-1;
+    }
+    .mobiusreactor2 {
+      opacity: 0.8;
+      position: absolute;
+      top: calc(50%);
+      left: calc(42%);
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      perspective: 800px;
+      z-index:-1;
+    }
+
+  }
+
+
+/*iphone*/
 
 @media only screen and (max-device-width: 480px) {
   body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg3.jpg");
-    background-position-x: 40%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("bg.jpg");
+    background-position-x: 35%;
     background-position-y: 10%;
     background-attachment: fixed;
     background-repeat: no-repeat;

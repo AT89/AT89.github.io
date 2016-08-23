@@ -50,7 +50,7 @@ $("#oneaux")
 });
 $("#motivation")
 .on("click", function(e){
-  $("#contentBlog").first().html("Read exciting, thought-provoking quips  on beautiful backgrounds around the world!<br><br> Using AJAX calls on subreddits <br><br><br><a class='go' href='https://at89.github.io/automotivationals'>App</a> | <a class='go2' href='http://github.com/at89/automotivationals'>Github</a>")
+  $("#contentBlog").first().html("Read exciting, thought-provoking quips  on beautiful backgrounds around the world!<br>Browse your favorite messageboard in a new way<br><br> Using AJAX calls on subreddits <br><br><br><a class='go' href='https://at89.github.io/automotivationals'>App</a> | <a class='go2' href='http://github.com/at89/automotivationals'>Github</a>")
 });
 
 $("#nyan-cat")
