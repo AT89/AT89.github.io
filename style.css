@@ -117,7 +117,7 @@ bottom: 200px;
   text-transform: uppercase;
 }
 .dev_links li a{
-  /*outline: 2px solid #d62827;*/
+  /*outline: 2px solid #f82dff;*/
   display: block;
   /*text-transform: uppercase;*/
   text-shadow: 0px 0px 5px #fff;
@@ -132,8 +132,8 @@ bottom: 200px;
   text-shadow: 0px 0px 5px #fff;
 }
 .dev_links li a:hover{
-  color: #fff;
-  text-shadow: 0px 0px 1px #fff;
+  color: pink;
+  text-shadow: 0px 0px 5px pink;
   font-size: 110%;
 
 }
@@ -142,10 +142,10 @@ bottom: 200px;
 }
 
 #extlinks a:hover{
-  color: #d62827;
+  color: #f82dff;
 }
 #bio:hover{
-  color: #d62827;
+  color: #f82dff;
 }
 a#skills:hover{
   color: pink;
@@ -172,7 +172,7 @@ a#skills:hover{
   /*border: 5px solid orange;*/
 }
 .go{
-  color: #d62827;
+  color: #f82dff;
   font-size: 20px;
 }
 .go2{
@@ -234,7 +234,7 @@ a#skills:hover{
   right: 0%;
   top: 0%;
   animation: rotate-two 1s linear infinite;
-  border-right: 3px solid #d62827;
+  border-right: 3px solid #f82dff;
 }
 
 .inner.three {
