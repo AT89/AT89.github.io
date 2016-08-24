@@ -184,7 +184,7 @@ a#skills:hover{
   width: 120px;
   /*outline: 10px solid red;*/
   position: absolute;
-  top: 40%;
+  top: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
   display:table-cell;
