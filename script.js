@@ -83,11 +83,10 @@ $("#bp2015")
 
 $("#chill")
 .on("click", function(e){
-  $("#contentBlog").first().html("Link to my Chill mix series. Downtempo, relaxing, soothing, intimate, enticing music.<br><br>  <a class='go' href='http://mp3.anhtice.com/Chill/'>Download</a>");
+  $("#contentBlog").first().html("Link to my Chill mix series. Downtempo, relaxing, soothing, intimate, enticing music.<br><br>Listen link may be NSFW<br><br><a class='go' href='http://anhtice.com/chill-mixes/'>Listen</a> | <a class='go' href='http://mp3.anhtice.com/Chill/'>Download</a>");
   $("#picboxIMG").attr("src", '');
 });
 
-// Listen link may be NSFW<br><br><a class='go' href='http://anhtice.com/chill-mixes/'>Listen</a> |
 
 $("#lit")
 .on("click", function(e){

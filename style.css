@@ -20,11 +20,10 @@ body{
   background-position-y: 50%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
+  -webkit-background-size: cover
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: fill;
-  overflow:hidden;
   display: flex;
 
 }
@@ -294,7 +293,6 @@ a#skills:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     display: flex;
   }
   *{
@@ -361,7 +359,6 @@ a#skills:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     display: flex;
   }
 /*Nexus 6p  TRYING*/
