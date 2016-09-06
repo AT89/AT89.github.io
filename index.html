@@ -4,100 +4,171 @@
 <head>
   <title>Anh Truong - Anhtice</title>
   <link rel="stylesheet" href="style.css" />
-  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
   <link href="sakuraleaves/jquery-sakura.css" rel="stylesheet" type="text/css">
-
-
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
 </head>
 
 <body>
+  <nav role="navigation">
+    <ul>
+      <li><a href="#homeview">Home</a></li>
+      <li><a href="#nes">About</a></li>
+      <li><a href="#snes">Portfolio</a></li>
+      <li><a href="#n64">Music</a></li>
+      <li><a href="#gc">Contact</a></li>
 
-  <div class="hero">
-    <h1> <a id="bio" href="http://anhtice.com">Anh Truong</a></h1>
-    <h2>Web Developer, DJ, Adventurer</h2>
-
-    <h2>
-      <p id="connect">
-        <a id="skills" href="#">Skills</a> |
-        <span id="extlinks">
-          <a id="github" href="http://www.github.com/at89">Github</a> | <a id="linkedin" href="https://www.linkedin.com/in/anhtruong89">Linkedin</a> | <a id="email" href="mailto:greetings@anhtice.com" target="_top">Contact</a>
-        </span>
-      </p>
-
-    </h2>
-
-  </div>
-
-
-  <div class="dev_sidebar">
-    <h3>Portfolio</h3>
-    <ul class="dev_links">
-      <li id="nyan-cat"><a href="#">NyanCat</a></li>
-      <li id="oneaux"><a href="#">OneAux</a></li>
-      <li id="war"><a href="#"</a>Card Game</li>
-      <li id="motivation"><a href="#">Motivation</a></li>
-      <li id="instagram"><a href="#">InstaSlick</a></li>
-      <li id="townboard"><a href="#">Townboard</a></li>
     </ul>
-  </div>
+  </nav>
+
+  <main role="main" class="app">
+
+    <section id="nes">
+      <header class="nes-header">
+        <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+          <title>nes controller</title>
+          <path d="M75 150c41.421356 0 75-33.578644 75-75 0-41.4213562-33.578644-75-75-75C33.5786438 0 0 33.5786438 0 75c0 41.421356 33.5786438 75 75 75zm45.667-95H30c-1.104 0-2 .896-2 2v36.5c0 1.104.896 2 2 2h90.667c1.104 0 2-.896 2-2V57c0-1.104-.896-2-2-2zM54.18 81.652c0 .55-.45 1-1 1h-3.152c-.55 0-1 .45-1 1v3.153c0 .55-.45 1-1 1h-4.5c-.55 0-1-.45-1-1v-3.153c0-.55-.45-1-1-1h-3.152c-.55 0-1-.45-1-1v-4.499c0-.55.45-1 1-1h3.152c.55 0 1-.45 1-1V72c0-.55.45-1 1-1h4.5c.55 0 1 .45 1 1v3.153c0 .55.45 1 1 1h3.152c.55 0 1 .45 1 1v4.499zm50.292 5.848c0 1.104-.895 2-2 2H95.64c-1.105 0-2-.896-2-2v-7.166c0-1.104.895-2 2-2h6.832c1.105 0 2 .896 2 2V87.5zm12.334 0c0 1.104-.896 2-2 2h-6.834c-1.104 0-2-.896-2-2v-7.166c0-1.104.896-2 2-2h6.834c1.104 0 2 .896 2 2V87.5z" fill="#FFF" fill-rule="evenodd"/>
+        </svg>
+        <h1>NES</h1>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_Entertainment_System" target="_blank">From Wikipedia</a>
+      </header>
+      <div class="container">
+        <p>The Nintendo Entertainment System (commonly abbreviated as NES) is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer (Japanese: ファミリーコンピュータ Hepburn: Famirī Konpyūta?) (also known by the portmanteau abbreviation Famicom (ファミコン Famikon?) and abbreviated as FC) on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy (현대 컴보이 Hyeondae Keomboi) and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System.</p>
+        <p>The best-selling gaming console of its time,the NES helped revitalize the US video game industry following the video game crash of 1983. With the NES, Nintendo introduced a now-standard business model of licensing third-party developers, authorizing them to produce and distribute titles for Nintendo's platform.</p>
+        <p>In 2009, the Nintendo Entertainment System was named the single greatest video game console in history by IGN, in a list of 25. It was judged the second greatest console behind the Sega Dreamcast in PC Magazine's "Top 10 Video Game Consoles of All Time".</p>
+      </div>
+    </section>
+
+    <section id="snes">
+      <header class="snes-header">
+
+          <title>Web Development Portfolio</title>
+
+        <h1 id="headername">Portfolio</h1>
+        <div class="portfolionav">
+          <img class="portfoliopic"src="icons/nyancat2.gif"/>
+          <img class="portfoliopic"src="icons/oneaux.jpg"/>
+          <img class="portfoliopic"src="icons/reddit.png"/>
+          <img class="portfoliopic"src="icons/lele.png"/>
+          <img class="portfoliopic"src="icons/pokemon.png"/>
+          <img class="portfoliopic"src="icons/instagramOG.ico"/>
+        </div>
+
+      </header>
+      <div class="container">
+        <div class="portfolioitiem">
+          <section id="nyancat">
+          <h1 class="portfolioname">NyanCat</h1>
+          <img class="portfoliopic"src="icons/nyancat2.gif"/>
+          <p>Cute shoot em up game featuring Nyan Cat,<br>
+          Made on phaser JS game library and with a Ruby on Rails server for leaderboards<br>
+          Currently finished on the leaderboard (check the dev branch)<br>
+          Working on AJAXing reddit for the background<br>
+          and Currently Figuring out the hosting but the core game is playable now<br>
+          In the future: Implement more enemies, turn down the difficulty, 'infinite mode'</p>
+          <p>Use the arrow keys and shoot with spacebar! (just read the instructions in white)<br>
+          Shoot the bombs, shoot the reapers, also your tail destroys enemies!</p>
+
+          <a class="extlink" href="http://anhtice.com/nyancat" target="_blank">App</a>
+          <a class="extlink" href="http://github.io/at89/nyancat" target="_blank">Github</a>
+        </section>
+        </div>
 
 
-<!--   <div class="mobiusreactor">
-    <div class="inner one"></div>
-    <div class="inner two"></div>
-    <div class="inner three"></div>
-  </div>
 
-  <div class="mobiusreactor2">
-    <div class="inner one"></div>
-    <div class="inner two"></div>
-    <div class="inner three"></div>
-  </div> -->
+        <div class="portfolioitiem">
+          <h1 id="oneaux" class="portfolioname">OneAux</h1>
+          <img class="portfoliopic"src="icons/oneaux.jpg"/>
+          <p>Single-Page (Angular JS) App that utilizes <br>
+          Spotify API to allow users to add songs to playlist (Rails API) <br>
+          and allows users to upvote and downvote <br>
+          songs to queue the Spotify playlist<br></p>
+          <p>Best user story to explain it is: You are at a party or function or even roadtrip,
+          and everyone wants to play music from Spotify but this requires the handing over of the Aux cord and
+          the pause of music. That's why we created OneAux, a fast solution (no app or user sign on required) that allows users to join
+          the host's playlist (the one plugged into the speakers) and add songs to it. After users add songs, they can vote up or donw the song
+          to augment the playlist order.</p>
 
-<div id="picbox">
-  <img id="picboxIMG" src=""  />
-</div>
-<div id="contentBlog">
-  <p>
-    "Where must we go, we who wander this wasteland, in search of our better selves?"
-    <br><br>-The First History Man
-  </p>
-
-</div>
+          <a class="extlink" href="http://oneaux.net" target="_blank">App</a>
+          <a class="extlink" href="http://github.io/at89/oneaux" target="_blank">Github</a>
+        </div>
 
 
+        <div class="portfolioitiem">
+          <h1 id="reddit"class="portfolioname">Redditgram</h1>
+          <img class="portfoliopic"src="icons/reddit.png"/>
+          <p>Desc here</p>
+          <a href="http://anhtice.com/nyancat" target="_blank">App</a>
+          <a href="http://github.io/at89/nyancat" target="_blank">Github</a>
+        </div>
+      </div>
+    </section>
 
 
-<div class="music_sidebar">
+    <section id="n64">
+      <header class="n64-header">
+        <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+          <title>n64 controller</title>
+          <path d="M75 150c41.421356 0 75-33.578644 75-75 0-41.4213562-33.578644-75-75-75C33.5786438 0 0 33.5786438 0 75c0 41.421356 33.5786438 75 75 75zM94.8140349 34.0802198l-1.4529804-3.278022S88.4025233 27 75.2004618 27h-.3967711c-13.2020615 0-18.1605927 3.8021978-18.1605927 3.8021978l-1.4540887 3.2769231s-21.4189927 1.965934-19.3043576 5.8989011c-12.1646933 3.932967-10.8424922 34.0857143-10.8424922 38.4120879 0 4.3263736 1.8508599 22.9417581 8.9905241 22.9417581s12.163585-27.1373625 12.163585-27.1373625 12.4284686-1.1802198 13.8825573 6.554945c1.4540887 7.7351649 4.9197407 42.2131865 14.7226482 42.2131865h.3967711c9.8029075 0 13.2685595-34.4780216 14.7226482-42.2131865 1.4540887-7.7351648 13.8825576-6.554945 13.8825576-6.554945s5.02392 27.1373625 12.163585 27.1373625c7.139664 0 8.990524-18.6153845 8.990524-22.9417581s1.325526-34.4791209-10.839168-38.410989c2.115744-3.9329671-19.3043571-5.8989011-19.3043571-5.8989011z" fill="#FFF" fill-rule="evenodd"/>
+        </svg>
+        <h1>Nintendo 64</h1>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_64" target="_blank">From Wikipedia</a>
+      </header>
+      <div class="container">
+        <p>The Nintendo 64 (Japanese: ニンテンドー64 Hepburn: Nintendō Rokujūyon?), stylized as NINTENDO64 and often referred to as N64, is Nintendo's third home video game console for the international market. Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America, March 1997 in Europe and Australia, September 1997 in France and December 1997 in Brazil. It is the industry's last major home console to use the cartridge as its primary storage format, although current handheld systems (such as the PlayStation Vita and Nintendo 3DS) also use cartridges. While the Nintendo 64 was succeeded by Nintendo's MiniDVD-based GameCube in November 2001, the consoles remained available until the system was retired in late 2003.</p>
+        <p>Code named Project Reality, the console's design was mostly finalized by mid-1995, though Nintendo 64's launch was delayed until 1996. As part of the fifth generation of gaming, the system competed primarily with the PlayStation and the Sega Saturn. The Nintendo 64 was launched with three games: Super Mario 64 and Pilotwings 64, released worldwide; and Saikyō Habu Shōgi, released only in Japan. The Nintendo 64's suggested retail price at launch was US$199.99 and it was later marketed with the slogan "Get N, or get Out!". With 32.93 million units worldwide, the console was ultimately released in a range of different colors and designs, and an assortment of limited-edition controllers were sold or used as contest prizes during the system's lifespan. IGN named it the 9th greatest video game console of all time; and in 1996, Time Magazine named it Machine of the Year.</p>
+      </div>
+    </section>
 
-  <ul class="dev_links music_links">
-    <h3 id="mixesheader">Music</h3>
-    <!-- <li id="cr2016"><a href="#">CR2016
-  </a></li> -->
-  <li id="bp2015"><a href="#">BP2015</a></li>
-  <li id="chill"><a href="#">Chill Mixes</a></li>
-  <li id="lit"><a href="#">Lit Mixes</a></li>
-  <ul>
-  </div>
+    <section id="gc">
+      <header class="gc-header">
+        <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+          <title>Gamecube controller</title>
+          <path d="M75 150c41.421356 0 75-33.578644 75-75 0-41.4213562-33.578644-75-75-75C33.5786438 0 0 33.5786438 0 75c0 41.421356 33.5786438 75 75 75zm48.545208-84.931227c-.34348-9.2390225-4.724234-13.6019865-8.035644-15.5923049.022232-1.0671918-.425737-2.8458449-3.050188-4.5291932-.366823-.9098282-1.362802-2.0202396-3.790503-3.0552938-1.930822-.823389-3.165792-.4621174-3.947236.210557-.096708-.0088655-.193416-.0166229-.290124-.023272h-.001111s-1.78187-.4842813-4.302944.1097113C93.47796 39.8783906 79.34194 38 74.134167 38c-5.344498 0-19.3315655 1.8783906-25.977729 4.1900856 0 0-5.5579223-.7391662-8.3368835.9231265-2.7789611 1.6622926-3.3347534 4.8018092-3.3347534 4.8018092S26.2960179 50.0826508 25.7402257 65.067665c-.5557922 14.985013-3.6182074 44.154924 8.7081527 46.752533 3.6537781.769088 6.6695068-4.801809 7.4109336-12.928204.9937565-10.894665.802564-12.948151 2.3398853-13.772648.5035478.961913.9404005 2.106679 1.2505325 3.503005l.0022232-.001108c1.2883264 5.406883 6.1515084 9.434064 11.969542 9.434064 6.801785 0 12.315244-5.496647 12.315244-12.277693 0-3.711345-1.658484-7.029281-4.268485-9.281134l.002224-.001108s-.010005-.005541-.011116-.005541c-.432407-.372353-.889268-.714786-1.370584-1.023972-.741427-.683756-1.625136-1.729893-2.226504-3.203792 2.282083-.840012 6.585027-2.066784 12.273005-2.164305 5.697982.094197 10.008706 1.323185 12.291901 2.164305-.601368 1.473899-1.482854 2.521144-2.225393 3.2049-.482427.310295-.938177.652727-1.369472 1.025081-.002223 0-.011115.005541-.011115.005541l.002223.001108c-2.610001 2.251852-4.268485 5.569788-4.268485 9.281133 0 6.781046 5.514571 12.277694 12.315245 12.277694 5.816921 0 10.680103-4.027181 11.970653-9.434065l.002223.001108c.307909-1.396326.744762-2.541091 1.248309-3.503004 1.539545.824497 2.726717 2.952231 4.344072 13.772648 1.600682 10.711813 4.308502 14.098458 8.215721 13.480085 12.443077-1.969263 7.449839-32.321618 6.894047-47.305523zM63.256201 83.654312c.611372 0 1.111585.498688 1.111585 1.108195v2.308371c0 .609507-.500213 1.108195-1.111585 1.108195h-2.223169c-.611371 0-1.111584.498688-1.111584 1.108195v2.21639c0 .609507-.500213 1.108195-1.111584 1.108195h-2.3154309c-.6113715 0-1.1115845-.498688-1.1115845-1.108195v-2.21639c0-.609507-.500213-1.108195-1.1115844-1.108195h-2.223169c-.6113714 0-1.1115844-.498688-1.1115844-1.108195v-2.308371c0-.609507.500213-1.108195 1.1115844-1.108195h2.223169c.6113714 0 1.1115844-.498687 1.1115844-1.108195v-2.21639c0-.610615.500213-1.108195 1.1115845-1.108195h2.3154309c.611371 0 1.111584.498688 1.111584 1.108195v2.21639c0 .609508.500213 1.108195 1.111584 1.108195h2.223169zm30.476312-18.064688c2.025307 0 3.668228 1.637913 3.668228 3.657044 0 2.019132-1.642921 3.657044-3.668228 3.657044-2.025307 0-3.668229-1.637912-3.668229-3.657044 0-2.019131 1.642922-3.657044 3.668229-3.657044zm3.450358-10.285158c-.870371-.8632839-.874817-2.2662589-.010004-3.1339756 1.208292-1.2112573 4.499694-2.9932349 9.163902-1.9892102 1.1994.2582095 1.963058 1.437329 1.704059 2.6330715-.257888 1.1968507-1.440614 1.9581807-2.642236 1.6999712-3.38144-.7280841-5.056598.7657628-5.07216.7812776-.435741.4366288-1.005984.653835-1.577339.653835-.565796-.0011082-1.132704-.2149898-1.566222-.6449695zm7.851121 14.002045c-3.255831 0-5.895844-2.631964-5.895844-5.876759 0-3.2447949 2.640013-5.8767582 5.895844-5.8767582s5.895844 2.6319633 5.895844 5.8767582c0 3.244795-2.640013 5.876759-5.895844 5.876759zm13.822553-3.600526c-.257888 1.195742-1.441725 1.957072-2.641125 1.698863-1.200511-.257101-1.96417-1.436221-1.70517-2.63418.730311-3.3711291-.766994-5.0411791-.782556-5.0566938-.437964-.4344125-.656946-1.0029165-.656946-1.5725288 0-.5651795.215647-1.130359.646942-1.5625551.864813-.8677167 2.27319-.8721495 3.143561-.0099737 1.21385 1.2057162 3.001278 4.4870818 1.995294 9.1370684z" fill="#FFF" fill-rule="evenodd"/>
+        </svg>
+        <h1>Nintendo Gamecube</h1>
+        <a href="https://en.wikipedia.org/wiki/GameCube" target="_blank">From Wikipedia</a>
+      </header>
+      <div class="container">
+        <p>The GameCube (Japanese: ゲームキューブ Hepburn: Gēmukyūbu?, officially called the Nintendo GameCube, abbreviated NGC in Japan and GCN in Europe and North America) is a home video game console released by Nintendo in Japan on September 14, 2001; in North America on November 18, 2001; in Europe on May 3, 2002; and in Australia on May 17, 2002. The sixth-generation console is the successor to the Nintendo 64 and competed with Sony Computer Entertainment's PlayStation 2 and Microsoft's Xbox.</p>
+        <p>The GameCube is the first Nintendo console to use optical discs as its primary storage medium. The discs are similar to the miniDVD format; as a result of their smaller size and the console's small disc compartment, the system was not designed to play standard DVDs or audio CDs. The console supports online gaming for a small number of titles via the broadband or modem adapter and connects to the Game Boy Advance via the link cable, allowing players to access exclusive in-game features using the handheld as a second screen and controller.</p>
+        <p>Contemporary reception of the GameCube was generally positive. The console was praised for its controller, extensive software library and high-quality games, but was criticized for its exterior design and lack of features. Nintendo sold 21.74 million GameCube units worldwide before it was discontinued in 2007. Its successor, the Wii, was released in November 2006.</p>
+      </div>
+    </section>
 
-  <!-- <div id="musicplayer">
-  Favorite song of the moment:
-  <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261820512&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-  Favorite mix of the moment:
-  <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/272373929&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div> -->
-<script src="jquery-3.0.0.min.js"></script>
-<script src="script.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="sakuraleaves/jquery-sakura.min.js"></script>
-<!-- PROPS http://www.jqueryscript.net/animation/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura.html -->
-<script>
-/* $(window).load(function () {
-  $('body').sakura({swayAnimations: 'sway-9'});
-}); */
-</script>
+    <section id="homeview">
+      <div class="container">
+        <h1 id="name">Anh Truong
+        <p id="subt">Full Stack Web Developer, DJ, Adventurer</p></h1>
+        <span id="connect">
+          <span id="extlinks">
+            <a id="github" href="http://www.github.com/at89"><img src="icons/github.png" alt="github" width="45" height="45"></a>
+            <a id="linkedin" href="https://www.linkedin.com/in/anhtruong89"><img src="icons/linkedin.png" alt="linkedin" width="45" height="45"</a>
+          </span><br>
+          <a id="skills" href="#"><img src="icons/skills.png" alt="skills" width="45" height="45"></a>
+        </span>
+      </div>
+
+      <div id="contentBlog" class="white">
+        <p>
+          I am a modern renaissance man who believes in being better than who I was yesterday. I enjoy learning, being creative and utilizing my resources to create innovative solutions.
+        </p>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script src="jquery-3.0.0.min.js"></script>
+  <script src="script.js"></script>
+
+  <script src="sakuraleaves/jquery-sakura.min.js"></script>
+  <!-- PROPS http://www.jqueryscript.net/animation/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura.html -->
+  <script>
+  // $(document).ready(function () {
+  //   $('#contentBlog').sakura({swayAnimations: 'sway-9'});
+  // });
+  </script>
 
 
 </body>
