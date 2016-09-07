@@ -72,7 +72,7 @@ height: auto;
   top: 60%;
   width: 100%;
   -webkit-transform: translate(0%, 0%);
-  transform: translate(0%, 500%);
+  transform: translate(0%, 600%);
   text-align: center;
   opacity: 0;
 }
@@ -440,6 +440,28 @@ height: auto;
         RESPONSIVE
 ############################### */
 @media screen and (min-width: 480px) {
+
+  .hero .content .header h1{
+    font-size: 10em;
+  }
+  .hero .content .header p{
+    font-size: 2em;
+  }
+  .hero .content .portfoliopic{
+  width: auto;
+  height: 100px;
+  }
+  .hero .content .portfolionav{
+    display:inline-block;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 700%);
+    text-align: center;
+    opacity: 0;
+  }
+
 
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
   .skills .content .tools-knowledge-wrapper .knowledge-wrapper {
