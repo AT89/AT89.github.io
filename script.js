@@ -69,4 +69,6 @@ $(window).scroll( function(){
     });
     developmentIsVisible = true;
   }
+
+  
 }); // -- End window scroll --

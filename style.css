@@ -369,7 +369,12 @@ height: auto;
   color: #444;
       text-align: center;
 }
+/*##### MIXES SECTION #####*/
+.music{
+    text-align: center;
+    justify-content: center;
 
+}
 .music h1 {
   color: #3c3c3c;
   font-size: 4em;
@@ -377,6 +382,16 @@ height: auto;
   font-family: 'Lobster', cursive;
   text-align: center;
 }
+.music div  {
+  align-self: center;
+}
+.music a{
+  color: blue;
+}
+.music a:visited{
+  color: blue;
+}
+
 /*##### CONTACT SECTION #####*/
 .contact {
   padding: 30px 0;
@@ -419,18 +434,6 @@ height: auto;
 }
 .contact .clear {
   clear: both;
-}
-
-.footer {
-  padding: 25px 0;
-  text-align: center;
-}
-.footer p {
-  color: #777;
-  font-size: 1.1em;
-}
-.footer i {
-  color: #e74c3c;
 }
 
 /* ############################
