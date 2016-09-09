@@ -1,3 +1,13 @@
+// ### LOADER ###
+
+$(document).ready(function() {
+
+    setTimeout(function(){
+        $('body').addClass('loaded');
+    }, 3000);
+
+});
+
 // Main variables
   var $aboutTitle = $('.about-myself .content h2');
   var $developmentWrapper = $('.development-wrapper');
@@ -6,12 +16,12 @@
 
 /* ####### HERO SECTION ####### */
 
-$('.hero .content .header').delay(500).animate({
+$('.hero .content .header').delay(3500).animate({
   'opacity':'1',
   'top': '50%'
 },1000);
 
-$('.hero .content .portfolionav').delay(1000).animate({
+$('.hero .content .portfolio-nav').delay(4000).animate({
   'opacity':'1',
   'top': '50%'
 },1000);
