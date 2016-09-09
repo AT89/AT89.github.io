@@ -101,44 +101,35 @@ body {
   right: 0;
 }
 .loader-wrapper .loader-section.section-left {
-    left: 0;
+  left: 0;
 }
 
 .loader-wrapper .loader-section.section-right {
-    right: 0;
+  right: 0;
 
-}
-.loaded .loader-wrapper .loader-section.section-left {
-    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: translateX(-100%);  /* IE 9 */
-    transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
-}
-
-.loaded .loader-wrapper .loader-section.section-right {
-    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: translateX(100%);  /* IE 9 */
-    transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 }
 .loaded .loader {
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-}
-.loaded .loader-wrapper {
-    visibility: hidden;
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-        transform: translateY(-100%);
-
-        -webkit-transition: all 0.3s 1s ease-out;
-                transition: all 0.3s 1s ease-out;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .loaded .loader-wrapper .loader-section.section-right,
 .loaded .loader-wrapper .loader-section.section-left {
-
-    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
+.loaded .loader-wrapper .loader-section.section-left {
+  -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform: translateX(-100%);  /* IE 9 */
+  transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded .loader-wrapper .loader-section.section-right {
+  -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform: translateX(100%);  /* IE 9 */
+  transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+}
+
 
 a {
   color: inherit;
@@ -183,8 +174,8 @@ section {
   font-size: 1.0em;
 }
 .hero .content .portfolio-pic{
-width: 50px;
-height: auto;
+  width: 50px;
+  height: auto;
 }
 .hero .content .portfolio-nav{
   display:inline-block;
@@ -221,8 +212,8 @@ height: auto;
   transform: translateX(0px) scale(1);
 }
 .about-myself .content{
-      max-width: 650px;
-      margin: 0 auto;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .about-myself .content p span {
@@ -817,7 +808,7 @@ height: auto;
 }
 
 /* ############################
-        RESPONSIVE
+RESPONSIVE
 ############################### */
 @media screen and (min-width: 480px) {
 
