@@ -382,12 +382,12 @@ height: auto;
 }
 .portfolio .content .projects .project .project-description {
   color: #444;
-      text-align: center;
+  text-align: center;
 }
 /*##### MIXES SECTION #####*/
-.music{
-    text-align: center;
-    justify-content: center;
+.music {
+
+  justify-content: center;
 
 }
 .music h1 {
@@ -395,6 +395,9 @@ height: auto;
   font-size: 4em;
   margin-bottom: 50px;
   font-family: 'Lobster', cursive;
+  text-align: center;
+}
+.music h2{
   text-align: center;
 }
 .music .needspace {
@@ -444,7 +447,7 @@ height: auto;
   width: 300px;
   height: 325px;
   position: relative;
-  background-image: url("pics/MixCovers/chill8.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)), url("pics/MixCovers/chill8.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   transition: background-image 0.5s ease;
@@ -474,10 +477,12 @@ height: auto;
 .music .carousel .slides .item .image {
   height: 200px;
   width: 200px;
+  background-size: 100%;
   -moz-box-shadow: 6px 9px 20px #111;
   -webkit-box-shadow: 6px 9px 20px #111;
   -o-box-shadow: 6px 9px 20px #111;
   box-shadow: 6px 9px 20px #111;
+
 }
 .music .carousel .slides .item p {
   font-size: 12px;
