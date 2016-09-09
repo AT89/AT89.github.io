@@ -69,44 +69,21 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 80px;
-  height: 80px;
-  transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
-  animation: loader 1.2s infinite ease-in-out;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  animation: loader 3.2s infinite ease-in-out;
+  background-image: url("logo.png");
+  background-size: 65%;
+  background-repeat: no-repeat;
 }
-.loader-wrapper .loader span {
-  position: absolute;
-  display: block;
-  width: 35px;
-  height: 35px;
-  background-color: white;
-  animation: loaderBlock 1.2s infinite ease-in-out both;
-}
-.loader-wrapper .loader span:nth-child(1) {
-  top: 0;
-  left: 0;
-}
-.loader-wrapper .loader span:nth-child(2) {
-  top: 0;
-  right: 0;
-  animation: loaderBlockInverse 1.2s infinite ease-in-out both;
-}
-.loader-wrapper .loader span:nth-child(3) {
-  bottom: 0;
-  left: 0;
-  animation: loaderBlockInverse 1.2s infinite ease-in-out both;
-}
-.loader-wrapper .loader span:nth-child(4) {
-  bottom: 0;
-  right: 0;
-}
+
 .loader-wrapper .loader-section.section-left {
   left: 0;
 }
 
 .loader-wrapper .loader-section.section-right {
   right: 0;
-
 }
 .loaded .loader {
   opacity: 0;
