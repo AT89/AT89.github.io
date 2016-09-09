@@ -73,7 +73,7 @@ body {
   height: 400px;
   transform: translate(-50%, -50%) translate3d(0, 0, 0);
   animation: loader 3.2s infinite ease-in-out;
-  background-image: url("logo.png");
+  background-image: url("logosmall.png");
   background-size: 65%;
   background-repeat: no-repeat;
 }
