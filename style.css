@@ -100,6 +100,11 @@ height: auto;
   -webkit-transform: translateY(0px) scale(1);
   transform: translateX(0px) scale(1);
 }
+.about-myself .content{
+      max-width: 650px;
+      margin: 0 auto;
+}
+
 .about-myself .content p span {
   color: #c0392b;
   font-weight: bold;
@@ -199,7 +204,7 @@ height: auto;
 }
 .skills .content .development-wrapper .development-title {
   color: #3c3c3c;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   margin-bottom: 20px;
 }
