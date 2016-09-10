@@ -20,41 +20,10 @@ body {
   font-size: 16px;
   font-family: "PT Sans", sans-serif;
 }
-@keyframes loader {
-  0%, 10%, 100% {
-    width: 80px;
-    height: 80px;
-  }
-  65% {
-    width: 150px;
-    height: 150px;
-  }
-}
-@keyframes loaderBlock {
-  0%, 30% {
-    transform: rotate(0);
-  }
-  55% {
-    background-color: #F37272;
-  }
-  100% {
-    transform: rotate(90deg);
-  }
-}
-@keyframes loaderBlockInverse {
-  0%, 20% {
-    transform: rotate(0);
-  }
-  55% {
-    background-color: #F37272;
-  }
-  100% {
-    transform: rotate(-90deg);
-  }
-}
+
 .loader{
   position: absolute;
-  margin-top: 400px;
+  margin-top: 420px;
   z-index: 1001;
 }
 .loader-wrapper .loader-section{
@@ -69,13 +38,20 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
-  height: 400px;
+  width: 800px;
+  height: 800px;
   transform: translate(-50%, -50%) translate3d(0, 0, 0);
   animation: loader 3.2s infinite ease-in-out;
   background-image: url("logosmall.png");
   background-size: 65%;
   background-repeat: no-repeat;
+}
+.loader-wrapper .loader h1{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  font-size: 2.5em;
+  color: white;
 }
 
 .loader-wrapper .loader-section.section-left {
