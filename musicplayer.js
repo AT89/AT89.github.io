@@ -152,7 +152,7 @@ Carousel.prototype.go_to = function( index, currentIndex )
 			index = index + this.count;
 
 		this.$.carousel.css({
-			"background-image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)), url(pics/MixCovers/chill" + (8-index) + ".jpg)"
+			"background-image": "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url(pics/MixCovers/chill" + (8-index) + ".jpg)"
 		});
 
 		/* Make visible or invisible the speakers*/
