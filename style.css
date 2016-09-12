@@ -132,10 +132,10 @@ section {
 .hero .content .portfolio-nav{
   display:inline-block;
   position: absolute;
-  top: 60%;
+  bottom: 120px;
   width: 100%;
   -webkit-transform: translate(0%, 0%);
-  transform: translate(0%, 600%);
+  transform: translate(0%, 100%);
   text-align: center;
   opacity: 0;
 }
