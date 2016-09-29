@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import 'https://fonts.googleapis.com/css?family=Lobster';
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+
 *,
 *:before,
 *:after {
@@ -51,6 +53,7 @@ body {
   left: 0%;
   font-size: 2em;
   color: white;
+  font-family: 'Poiret One', cursive;
 }
 
 .loader-wrapper .loader-section.section-left {
@@ -246,7 +249,7 @@ section {
 }
 /*##### EXPERIENCE SECTION #####*/
 .experience {
-  background: #e74c3c;
+  background: #E92C2D;
   padding: 50px 0;
   overflow-x: hidden;
 }
@@ -274,7 +277,7 @@ section {
 }
 .experience .content ul li:before {
   content: '';
-  background: #e74c3c;
+  background: #E92C2D;
   position: absolute;
   left: 50%;
   top: 0;
