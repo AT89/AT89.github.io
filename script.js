@@ -1,6 +1,6 @@
 // ### LOADER ###
 
-$(".hero .content .header").ready(function() {
+$(".hero").ready(function() {
 
     setTimeout(function(){
         $('body').addClass('loaded');
