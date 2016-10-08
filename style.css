@@ -1015,131 +1015,28 @@ RESPONSIVE
       font-size: 120%;
     }
     .track {
-      font-size: 100%;
+      font-size: 80%;
     }
-    .experience .content ul li {
-      margin: 0 auto;
-    }
-    .experience .content ul li .experience-content {
-      width: 40vw;
-    }
-    .experience .content ul li:nth-child(odd) .experience-content {
-      left: 63px;
-    }
-    .experience .content ul li:nth-child(odd) .experience-content:before {
-      left: -50px;
-      width: 50px;
-    }
-    .experience .content ul li:nth-child(even) .experience-content {
-      left: calc(-40vw - 57px);
-      -webkit-border-radius: 5px 0px 5px 5px;
-      -moz-border-radius: 5px 0px 5px 5px;
-      border-radius: 5px 0px 5px 5px;
-    }
-    .experience .content ul li:nth-child(even) .experience-content:before {
-      left: auto;
-      right: -50px;
-      width: 50px;
-    }
-    .experience .content ul li:nth-child(odd) .hidden {
-      margin-left: 10vw;
-    }
-    .experience .content ul li:nth-child(even) .hidden {
-      margin-left: -10vw;
+    .about-myself {
+      padding: 100px 40px;
     }
 
     .skills {
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-    .skills .content {
-      max-width: 1100px;
-      margin: auto;
-    }
-    .skills .content .development-wrapper,
-    .skills .content .tools-knowledge-wrapper {
-      float: left;
+      padding-left: 0;
+      padding-right: 0;
     }
     .skills .content .development-wrapper {
-      margin-bottom: 0;
-      width: 60%;
+      width: 600px;
+      margin: auto;
+      margin-bottom: 50px;
     }
     .skills .content .tools-knowledge-wrapper {
-      width: 40%;
-      margin-top: 60px;
-    }
-    .skills .content .tools-knowledge-wrapper .tools-wrapper,
-    .skills .content .tools-knowledge-wrapper .knowledge-wrapper {
-      float: none;
+      width: 600px;
       margin: auto;
-    }
-    .skills .content .tools-knowledge-wrapper .tools-wrapper {
-      margin-bottom: 30px;
     }
 
-    .portfolio .content .projects .project {
-      position: relative;
+    .contact .content .socials {
+      width: 600px;
       margin: auto;
-      margin-bottom: 3%;
-      width: 680px;
-      height: 450px;
-      overflow: hidden;
-    }
-    .portfolio .content .projects .project:hover .project-image {
-      -webkit-transform: scale(0.5);
-      transform: scale(0.5);
-    }
-    .portfolio .content .projects .project:hover .project-title, .portfolio .content .projects .project:hover .project-description {
-      opacity: 1;
-      text-align: center;
-    }
-    .portfolio .content .projects .project .project-image {
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      -webkit-transition: transform .5s ease;
-      transition: transform .5s ease;
-      -webkit-transform-origin: left top;
-      transform-origin: left top;
-      z-index: 3;
-      overflow: hidden;
-    }
-    .portfolio .content .projects .project .project-image img {
-      width: 100%;
-      height: auto;
-      min-height: 100%;
-      min-width: 100%;
-    }
-    .portfolio .content .projects .project .project-title,
-    .portfolio .content .projects .project .project-description {
-      position: absolute;
-      height: 50%;
-      opacity: 0;
-      -webkit-transition: opacity .3s linear;
-      transition: opacity .3s linear;
-      overflow: hidden;
-    }
-    .portfolio .content .projects .project .project-title {
-      width: 50%;
-      top: 0;
-      right: 0;
-      padding: 10px;
-      text-align: center;
-      display: table;
-    }
-    .portfolio .content .projects .project .project-title h2 {
-      font-size: 2em;
-      color: blue;
-      display: table-cell;
-      vertical-align: middle;
-    }
-    .portfolio .content .projects .project .project-description {
-      width: 100%;
-      top: 50%;
-      left: 0;
-      padding: 25px 10px;
-      text-align: left;
     }
 }
