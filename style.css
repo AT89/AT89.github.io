@@ -35,8 +35,8 @@ body {
   height: 100%;
   background: black;
   z-index: 1000;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("logosmall.png");
-  background-size: 2%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7n ) ),url("logosmall.png");
+  background-size: 1%;
 
 }
 .loader-wrapper .loader {
@@ -1005,4 +1005,13 @@ RESPONSIVE
     text-align: left;
   }
 
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    *{
+      font-size: 120%;
+    }
 }
