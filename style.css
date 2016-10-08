@@ -1014,6 +1014,9 @@ RESPONSIVE
     *{
       font-size: 120%;
     }
+    p .track {
+      font-size: 100%;
+    }
     .experience .content ul li {
       margin: 0 auto;
     }
