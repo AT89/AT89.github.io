@@ -1014,7 +1014,7 @@ RESPONSIVE
     *{
       font-size: 120%;
     }
-    p.track {
+    .track {
       font-size: 100%;
     }
     .experience .content ul li {
