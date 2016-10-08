@@ -838,6 +838,39 @@ section {
 /* ############################
 RESPONSIVE
 ############################### */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    *{
+      font-size: 120%;
+    }
+    .track {
+      font-size: 80%;
+    }
+    .about-myself {
+      padding: 100px 40px;
+    }
+
+    .skills {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .skills .content .development-wrapper {
+      width: 600px;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+    .skills .content .tools-knowledge-wrapper {
+      width: 600px;
+      margin: auto;
+    }
+
+    .contact .content .socials {
+      width: 600px;
+      margin: auto;
+    }
+}
 @media screen and (min-width: 480px) {
 
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
@@ -1005,38 +1038,4 @@ RESPONSIVE
     text-align: left;
   }
 
-}
-
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    *{
-      font-size: 120%;
-    }
-    .track {
-      font-size: 80%;
-    }
-    .about-myself {
-      padding: 100px 40px;
-    }
-
-    .skills {
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .skills .content .development-wrapper {
-      width: 600px;
-      margin: auto;
-      margin-bottom: 50px;
-    }
-    .skills .content .tools-knowledge-wrapper {
-      width: 600px;
-      margin: auto;
-    }
-
-    .contact .content .socials {
-      width: 600px;
-      margin: auto;
-    }
 }
