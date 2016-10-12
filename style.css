@@ -838,16 +838,6 @@ section {
 /* ############################
 RESPONSIVE
 ############################### */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    *{
-      font-size: 120%;
-    }
-    .track {
-      font-size: 2px;
-}
 @media screen and (min-width: 480px) {
 
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
@@ -1014,5 +1004,15 @@ RESPONSIVE
     padding: 25px 10px;
     text-align: left;
   }
+}
 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    *{
+      font-size: 120%;
+    }
+    .track {
+      font-size: 10px;
 }
