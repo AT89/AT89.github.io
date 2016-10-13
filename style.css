@@ -146,6 +146,7 @@ section {
   text-align: center;
   opacity: 0;
 }
+
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
