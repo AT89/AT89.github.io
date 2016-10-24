@@ -20,28 +20,30 @@
 
   </section>
 
-  <section class="hero">
-    <div class="content">
-      <div class="header">
-        <h1>Anh Truong</h1>
-        <p>Web Developer, DJ, Adventurer</p>
-      </div>
-      <div class="portfolio-nav">
-        <a href="#nyancat"><img class="portfolio-pic"src="icons/nyancat2.gif"/></a>
-
-        <a href="#oneaux"><img class="portfolio-pic"src="icons/oneaux_trans.png"/></a>
-        <a href="#reddit"><img class="portfolio-pic"src="icons/reddit.png"/></a>
-
-        <a href="#war">  <img class="portfolio-pic"src="icons/cards.png"/></a>
-
-        <a href="#mixes">  <img class="portfolio-pic"src="icons/music.png"/></a>
-
-        <a href="#pshop">  <img class="portfolio-pic"src="icons/pshop.png"/></a>
-
-      </div>
-      <div class="arrow bounce">
-      </div>
+  <section class="hero" >
+    <div class="segmenter" style=" background: url('pics/bg3_dark.jpg')">
     </div>
+      <div class="content">
+        <div class="header">
+          <h1>Anh Truong</h1>
+          <p>Web Developer, DJ, Adventurer</p>
+        </div>
+        <div class="portfolio-nav">
+          <a href="#nyancat"><img class="portfolio-pic"src="icons/nyancat2.gif"/></a>
+
+          <a href="#oneaux"><img class="portfolio-pic"src="icons/oneaux_trans.png"/></a>
+          <a href="#reddit"><img class="portfolio-pic"src="icons/reddit.png"/></a>
+
+          <a href="#war">  <img class="portfolio-pic"src="icons/cards.png"/></a>
+
+          <a href="#mixes">  <img class="portfolio-pic"src="icons/music.png"/></a>
+
+          <a href="#pshop">  <img class="portfolio-pic"src="icons/pshop.png"/></a>
+        </div>
+        <div class="arrow bounce">
+        </div>
+      </div>
+
   </section>
 
   <section class="about-myself">
@@ -615,6 +617,22 @@
           <script src="jquery-3.0.0.min.js"></script>
           <script src="script.js"></script>
           <script src="musicplayer.js"></script>
+          <script src="js/anime.min.js"></script>
+          <script src="js/imagesloaded.pkgd.min.js"></script>
+          <script src="js/main.js"></script>
+          <script>
+
+            (function() {
+            var segmenter = new Segmenter(document.querySelector('.segmenter'), {
+                onReady: function() {;
+                  setTimeout(function(){
+                    segmenter.animate();
+                  }, 5000);
+                }
+              });
+            })();
+            setTimeout(segmenter.animate(),6000);
+          </script>
 
         </body>
         </html>
