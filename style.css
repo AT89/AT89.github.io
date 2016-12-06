@@ -166,10 +166,10 @@ section {
 }
 .hero .content .header h1 {
   color: #fff;
-  font-size: 5.5em;
+  font-size: 7.5em;
   font-family: 'Lobster', cursive;
   background: url("pics/space2.gif") no-repeat center;
-  background-size: 5.5em;
+  background-size: 5em;
   -webkit-background-clip: text;
   -ms-background-clip: text;
   background-clip: text;
