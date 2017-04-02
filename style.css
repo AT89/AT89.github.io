@@ -169,7 +169,7 @@ section {
   font-size: 7.5em;
   font-family: 'Lobster', cursive;
   background: url("pics/space2.gif") no-repeat center;
-  background-size: 5em;
+  background-size: 10em;
   -webkit-background-clip: text;
   -ms-background-clip: text;
   background-clip: text;
