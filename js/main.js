@@ -113,7 +113,7 @@
 
 	Segmenter.prototype.options = {
 		// Number of pieces.
-		pieces: 8,
+		pieces: 4,
 		// Show pieces already styled.
 		renderOnLoad: false,
 		// Add an element for the shadow.
