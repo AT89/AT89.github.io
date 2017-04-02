@@ -26,6 +26,7 @@ $('.hero .content .portfolio-nav').delay(4000).animate({
   'top': '50%'
 },1000);
 
+// scroll magic
 $(window).scroll( function(){
 
   var bottom_of_window = $(window).scrollTop() + $(window).height();
