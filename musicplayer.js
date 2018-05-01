@@ -53,22 +53,22 @@ Carousel.prototype.init_events = function (){
 	this.changeMusic();
 
 
-	/* CHECK WHEN WE CHANGE MUSIC ON KEYBOARD */
-	$(window).keydown(function(evt) {
-		if (evt.which == 39) {
-			that.next();
-			return false;
-	  	}
-	  	if (evt.which == 37) {
-			that.prev();
-			return false;
-	  	}
-	  	if (evt.which == 32) {
-	  		play = !play;
-			that.changeMusic();
-			return false;
-	  	}
-	});
+	// /* CHECK WHEN WE CHANGE MUSIC ON KEYBOARD */
+	// $(window).keydown(function(evt) {
+	// 	if (evt.which == 39) {
+	// 		that.next();
+	// 		return false;
+	//   	}
+	//   	if (evt.which == 37) {
+	// 		that.prev();
+	// 		return false;
+	//   	}
+	//   	if (evt.which == 32) {
+	//   		play = !play;
+	// 		that.changeMusic();
+	// 		return false;
+	//   	}
+	// });
 
 	/* CHECK WHEN WE PAUSE BY CLICKING ON THE IMAGE */
 	this.$.play.on('click', function(){
