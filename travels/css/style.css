@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+body {
+    font-family: "PT Sans",sans-serif;
+    text-align: center;
+    padding-top: 3em;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+}
+
+a {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+}
+p {
+  font-size: 2em;
+}
