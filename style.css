@@ -359,7 +359,7 @@ section {
   left: 48px;
   width: calc(100vw - 100px);
   padding: 20px;
-  text-align: center;
+  text-align: left;
   -webkit-border-radius: 0 5px 5px;
   -moz-border-radius: 0 5px 5px;
   border-radius: 0 5px 5px;
